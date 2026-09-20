@@ -1,0 +1,58 @@
+{
+  "model": "Qwen_3_8B_base",
+  "gguf": "/media/oneiroid/sub/workspace/llmfinetune/models/Qwen3-8B-Q8_0.gguf",
+  "layer": 34,
+  "tokenization": "nobos",
+  "n_gpu_layers": 20,
+  "auc": {
+    "nobos/s1/S1_1P": 0.9482999999999999,
+    "nobos/s1/S2_1P": 0.9305,
+    "nobos/s2/S1_1P": 0.8963,
+    "nobos/s2/S2_1P": 0.99,
+    "bos/s1/S1_1P": 0.9482999999999999,
+    "bos/s1/S2_1P": 0.9305,
+    "bos/s2/S1_1P": 0.8963,
+    "bos/s2/S2_1P": 0.99
+  },
+  "paper_auc": {
+    "s1/S1_1P": 0.948,
+    "s2/S2_1P": 0.99
+  },
+  "z_scores": [
+    {
+      "set": "S1_1P",
+      "group": "pain (A1-A5)",
+      "z": 0.29819291830062866
+    },
+    {
+      "set": "S1_1P",
+      "group": "control (B-E)",
+      "z": -0.5447161197662354
+    },
+    {
+      "set": "S2_1P",
+      "group": "pain (A1-A5)",
+      "z": 0.8278168439865112
+    },
+    {
+      "set": "S2_1P",
+      "group": "control (B-E)",
+      "z": -0.8278167247772217
+    },
+    {
+      "set": "Random_1P",
+      "group": "all",
+      "z": -0.8397166728973389
+    },
+    {
+      "set": "Arousal_1P",
+      "group": "all",
+      "z": -0.4589906930923462
+    },
+    {
+      "set": "Numb_1P",
+      "group": "all",
+      "z": 0.06049897521734238
+    }
+  ]
+}

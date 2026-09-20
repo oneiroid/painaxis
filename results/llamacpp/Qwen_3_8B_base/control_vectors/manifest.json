@@ -1,0 +1,37 @@
+{
+  "model": "Qwen_3_8B_base",
+  "gguf": "/media/oneiroid/sub/workspace/llmfinetune/models/Qwen3-8B-Q8_0.gguf",
+  "extraction_layer": 34,
+  "n_layers": 36,
+  "ratio_target": 0.6,
+  "vectors": {
+    "s1": {
+      "layer": 21,
+      "auto_picked_layer": 21,
+      "paper_layer": 21,
+      "norm": 94.89398956298828,
+      "ratio_at_layer": 0.7195552113255876,
+      "bin": "Qwen_3_8B_base_s1_L21.bin",
+      "gguf": "Qwen_3_8B_base_s1_L21.gguf"
+    },
+    "s2": {
+      "layer": 27,
+      "auto_picked_layer": 27,
+      "paper_layer": 27,
+      "norm": 139.20672607421875,
+      "ratio_at_layer": 0.34112852885411904,
+      "bin": "Qwen_3_8B_base_s2_L27.bin",
+      "gguf": "Qwen_3_8B_base_s2_L27.gguf"
+    },
+    "bipolar": {
+      "layer": 27,
+      "auto_picked_layer": null,
+      "paper_layer": null,
+      "norm": 139.20672607421875,
+      "ratio_at_layer": 0.34112852885411904,
+      "bin": "Qwen_3_8B_base_bipolar_L27.bin",
+      "gguf": "Qwen_3_8B_base_bipolar_L27.gguf",
+      "note": "pain - arousal, built from llama.cpp activations; rescaled to the S2 vector's norm"
+    }
+  }
+}

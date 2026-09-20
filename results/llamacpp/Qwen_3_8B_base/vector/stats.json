@@ -1,0 +1,39 @@
+{
+  "model": "Qwen_3_8B_base",
+  "gguf": "/media/oneiroid/sub/workspace/llmfinetune/models/Qwen3-8B-Q8_0.gguf",
+  "layer": 34,
+  "extraction": "final_token",
+  "cos_s1_s2": 0.6324553489685059,
+  "stats": [
+    {
+      "vector": "s1_pain_vector",
+      "d_model": 4096,
+      "norm": 94.89398956298828,
+      "mean": 0.0632907822728157,
+      "std": 1.4813672304153442,
+      "min": -6.083076477050781,
+      "max": 15.285468101501465,
+      "kurtosis": 8.474352836608887,
+      "participation_ratio": 478.4888000488281,
+      "dims_for_50pct_energy": 397,
+      "dims_for_90pct_energy": 1715,
+      "top_dim": 989,
+      "top_dim_share_of_energy": 0.02594657614827156
+    },
+    {
+      "vector": "s2_pain_vector",
+      "d_model": 4096,
+      "norm": 139.20672607421875,
+      "mean": 0.08855896443128586,
+      "std": 2.1733016967773438,
+      "min": -13.111437797546387,
+      "max": 12.868141174316406,
+      "kurtosis": 4.680853366851807,
+      "participation_ratio": 873.3465576171875,
+      "dims_for_50pct_energy": 424,
+      "dims_for_90pct_energy": 1699,
+      "top_dim": 1989,
+      "top_dim_share_of_energy": 0.00887115579098463
+    }
+  ]
+}

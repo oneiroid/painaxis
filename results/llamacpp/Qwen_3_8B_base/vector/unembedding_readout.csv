@@ -1,0 +1,321 @@
+vector,variant,pole,rank,token,score
+s1,raw,+pain,1, pain,0.20101378858089447
+s1,raw,+pain,2,疼痛,0.19387444853782654
+s1,raw,+pain,3, Pain,0.1923595666885376
+s1,raw,+pain,4,pain,0.1786462962627411
+s1,raw,+pain,5, đau,0.14593178033828735
+s1,raw,+pain,6,痛苦,0.14371082186698914
+s1,raw,+pain,7, hurting,0.13742944598197937
+s1,raw,+pain,8,缝,0.13627572357654572
+s1,raw,+pain,9, painful,0.1339728683233261
+s1,raw,+pain,10, pins,0.13207894563674927
+s1,raw,+pain,11,灼,0.13131794333457947
+s1,raw,+pain,12,割,0.13076302409172058
+s1,raw,+pain,13,麻醉,0.12947416305541992
+s1,raw,+pain,14, pressure,0.1286933720111847
+s1,raw,+pain,15,针,0.12775388360023499
+s1,raw,+pain,16, incapac,0.12766103446483612
+s1,raw,+pain,17,needle,0.12722185254096985
+s1,raw,+pain,18, shooting,0.126811221241951
+s1,raw,+pain,19,痛み,0.12662753462791443
+s1,raw,+pain,20, exc,0.12636888027191162
+s1,raw,+pain,21,住院,0.12603649497032166
+s1,raw,+pain,22,pressure,0.12461264431476593
+s1,raw,+pain,23,孤立,0.12459863722324371
+s1,raw,+pain,24,疼,0.12410265952348709
+s1,raw,+pain,25, stabbing,0.12376853078603745
+s1,raw,+pain,26,刺,0.12270474433898926
+s1,raw,+pain,27,烧,0.12255210429430008
+s1,raw,+pain,28, needle,0.12082216888666153
+s1,raw,+pain,29, Pins,0.12068632245063782
+s1,raw,+pain,30, Needle,0.12066246569156647
+s1,raw,+pain,31, fever,0.120549276471138
+s1,raw,+pain,32, failing,0.11996345221996307
+s1,raw,+pain,33, burning,0.11936390399932861
+s1,raw,+pain,34, crippling,0.1187712699174881
+s1,raw,+pain,35, Pressure,0.11861806362867355
+s1,raw,+pain,36, hurts,0.11812948435544968
+s1,raw,+pain,37, burn,0.11747877299785614
+s1,raw,+pain,38, burned,0.11576084047555923
+s1,raw,+pain,39, hurt,0.11560593545436859
+s1,raw,+pain,40,妁,0.11520388722419739
+s1,raw,-pain,1,生态保护,-0.16557708382606506
+s1,raw,-pain,2, peaceful,-0.1631084680557251
+s1,raw,-pain,3, ecological,-0.16194948554039001
+s1,raw,-pain,4, peacefully,-0.1573489010334015
+s1,raw,-pain,5,生态,-0.15200427174568176
+s1,raw,-pain,6, clean,-0.1519933044910431
+s1,raw,-pain,7,环境卫生,-0.15144173800945282
+s1,raw,-pain,8,环保,-0.14858795702457428
+s1,raw,-pain,9,露天,-0.1456485092639923
+s1,raw,-pain,10, cleanliness,-0.14549341797828674
+s1,raw,-pain,11,安全保障,-0.14493000507354736
+s1,raw,-pain,12, calm,-0.14040932059288025
+s1,raw,-pain,13, serene,-0.14021632075309753
+s1,raw,-pain,14, cleaner,-0.13993139564990997
+s1,raw,-pain,15, citizen,-0.13943591713905334
+s1,raw,-pain,16,生态环境,-0.13856536149978638
+s1,raw,-pain,17,生态文明,-0.13784603774547577
+s1,raw,-pain,18, Cleaner,-0.1370406150817871
+s1,raw,-pain,19, ecology,-0.13583165407180786
+s1,raw,-pain,20, sovereignty,-0.1355186104774475
+s1,raw,-pain,21,这是我们,-0.13471102714538574
+s1,raw,-pain,22, tidy,-0.1337374448776245
+s1,raw,-pain,23,妥善,-0.1320037543773651
+s1,raw,-pain,24, civic,-0.13169296085834503
+s1,raw,-pain,25, eco,-0.13132190704345703
+s1,raw,-pain,26,.clean,-0.13093659281730652
+s1,raw,-pain,27,安心,-0.13002674281597137
+s1,raw,-pain,28,(clean,-0.1299530267715454
+s1,raw,-pain,29,净化,-0.12925323843955994
+s1,raw,-pain,30,洗干净,-0.128582164645195
+s1,raw,-pain,31,Cascade,-0.1278989017009735
+s1,raw,-pain,32, refreshed,-0.12758833169937134
+s1,raw,-pain,33, Citizens,-0.1270802617073059
+s1,raw,-pain,34, calming,-0.12665340304374695
+s1,raw,-pain,35, CLEAN,-0.12562744319438934
+s1,raw,-pain,36, coastal,-0.1254904568195343
+s1,raw,-pain,37,保洁,-0.124761663377285
+s1,raw,-pain,38, bless,-0.12401431798934937
+s1,raw,-pain,39, peace,-0.12393561750650406
+s1,raw,-pain,40, prosperity,-0.12391387671232224
+s1,rmsnorm_gain,+pain,1, pain,0.4243798851966858
+s1,rmsnorm_gain,+pain,2,疼痛,0.41410189867019653
+s1,rmsnorm_gain,+pain,3, Pain,0.3996177911758423
+s1,rmsnorm_gain,+pain,4,pain,0.3670964241027832
+s1,rmsnorm_gain,+pain,5, đau,0.31033825874328613
+s1,rmsnorm_gain,+pain,6,痛苦,0.2969640791416168
+s1,rmsnorm_gain,+pain,7, painful,0.2956411838531494
+s1,rmsnorm_gain,+pain,8, pins,0.2764270305633545
+s1,rmsnorm_gain,+pain,9,麻醉,0.27600938081741333
+s1,rmsnorm_gain,+pain,10, incapac,0.27474015951156616
+s1,rmsnorm_gain,+pain,11,孤立,0.2707807421684265
+s1,rmsnorm_gain,+pain,12, hurting,0.27063149213790894
+s1,rmsnorm_gain,+pain,13,痛み,0.2689007520675659
+s1,rmsnorm_gain,+pain,14, stabbing,0.2649995684623718
+s1,rmsnorm_gain,+pain,15, inability,0.2630256712436676
+s1,rmsnorm_gain,+pain,16, pressure,0.2628309726715088
+s1,rmsnorm_gain,+pain,17,住院,0.2620406448841095
+s1,rmsnorm_gain,+pain,18, failing,0.259941428899765
+s1,rmsnorm_gain,+pain,19,灼,0.2591831088066101
+s1,rmsnorm_gain,+pain,20, exc,0.259088397026062
+s1,rmsnorm_gain,+pain,21, numb,0.25840017199516296
+s1,rmsnorm_gain,+pain,22,pressure,0.25496482849121094
+s1,rmsnorm_gain,+pain,23, Pins,0.25350823998451233
+s1,rmsnorm_gain,+pain,24, crippling,0.2531490623950958
+s1,rmsnorm_gain,+pain,25,痉,0.253118634223938
+s1,rmsnorm_gain,+pain,26,needle,0.25189927220344543
+s1,rmsnorm_gain,+pain,27,药物,0.24971209466457367
+s1,rmsnorm_gain,+pain,28,疼,0.24890509247779846
+s1,rmsnorm_gain,+pain,29,射击,0.24813759326934814
+s1,rmsnorm_gain,+pain,30, Pressure,0.2466813176870346
+s1,rmsnorm_gain,+pain,31,针,0.24628286063671112
+s1,rmsnorm_gain,+pain,32, Needle,0.2451702058315277
+s1,rmsnorm_gain,+pain,33, shooting,0.2447335124015808
+s1,rmsnorm_gain,+pain,34,割,0.24380648136138916
+s1,rmsnorm_gain,+pain,35,缝,0.24378131330013275
+s1,rmsnorm_gain,+pain,36,妁,0.2436276078224182
+s1,rmsnorm_gain,+pain,37, needle,0.2435503602027893
+s1,rmsnorm_gain,+pain,38, weakness,0.24326197803020477
+s1,rmsnorm_gain,+pain,39, failed,0.2428290992975235
+s1,rmsnorm_gain,+pain,40, Void,0.24147973954677582
+s1,rmsnorm_gain,-pain,1, ecological,-0.3758580684661865
+s1,rmsnorm_gain,-pain,2, peaceful,-0.3747691214084625
+s1,rmsnorm_gain,-pain,3,生态保护,-0.3631311058998108
+s1,rmsnorm_gain,-pain,4, peacefully,-0.3596646785736084
+s1,rmsnorm_gain,-pain,5,环保,-0.3537577986717224
+s1,rmsnorm_gain,-pain,6,生态,-0.3480803370475769
+s1,rmsnorm_gain,-pain,7,露天,-0.3375961482524872
+s1,rmsnorm_gain,-pain,8, clean,-0.3360852599143982
+s1,rmsnorm_gain,-pain,9, serene,-0.3318493664264679
+s1,rmsnorm_gain,-pain,10,环境卫生,-0.3284871578216553
+s1,rmsnorm_gain,-pain,11, civic,-0.3283974528312683
+s1,rmsnorm_gain,-pain,12, citizen,-0.32793140411376953
+s1,rmsnorm_gain,-pain,13, cleanliness,-0.32447531819343567
+s1,rmsnorm_gain,-pain,14, eco,-0.3208656907081604
+s1,rmsnorm_gain,-pain,15, sovereignty,-0.3150571584701538
+s1,rmsnorm_gain,-pain,16, prosperity,-0.31454652547836304
+s1,rmsnorm_gain,-pain,17, ecology,-0.314163476228714
+s1,rmsnorm_gain,-pain,18, cleaner,-0.3131535053253174
+s1,rmsnorm_gain,-pain,19,妥善,-0.3120231628417969
+s1,rmsnorm_gain,-pain,20,生态文明,-0.3107706308364868
+s1,rmsnorm_gain,-pain,21, climate,-0.3092045187950134
+s1,rmsnorm_gain,-pain,22,安全保障,-0.3085781931877136
+s1,rmsnorm_gain,-pain,23, coastal,-0.3068392872810364
+s1,rmsnorm_gain,-pain,24,生态环境,-0.3059040606021881
+s1,rmsnorm_gain,-pain,25, Cleaner,-0.30201977491378784
+s1,rmsnorm_gain,-pain,26, calm,-0.30132633447647095
+s1,rmsnorm_gain,-pain,27,便利,-0.3009573817253113
+s1,rmsnorm_gain,-pain,28,安心,-0.2985363006591797
+s1,rmsnorm_gain,-pain,29, tidy,-0.29688185453414917
+s1,rmsnorm_gain,-pain,30, municipal,-0.2965991199016571
+s1,rmsnorm_gain,-pain,31, inland,-0.29557859897613525
+s1,rmsnorm_gain,-pain,32, maritime,-0.29384729266166687
+s1,rmsnorm_gain,-pain,33, peace,-0.29346004128456116
+s1,rmsnorm_gain,-pain,34,.clean,-0.2920551896095276
+s1,rmsnorm_gain,-pain,35,洁净,-0.29084891080856323
+s1,rmsnorm_gain,-pain,36,净化,-0.2891373932361603
+s1,rmsnorm_gain,-pain,37, Citizens,-0.2890074849128723
+s1,rmsnorm_gain,-pain,38, rivers,-0.2872953414916992
+s1,rmsnorm_gain,-pain,39,这是我们,-0.28715968132019043
+s1,rmsnorm_gain,-pain,40,慷慨,-0.28570687770843506
+s2,raw,+pain,1, pain,0.18004107475280762
+s2,raw,+pain,2, Pain,0.16478905081748962
+s2,raw,+pain,3, rejected,0.15546812117099762
+s2,raw,+pain,4,pain,0.15311631560325623
+s2,raw,+pain,5, hurt,0.14762690663337708
+s2,raw,+pain,6, rejection,0.14417243003845215
+s2,raw,+pain,7, invalidated,0.14153331518173218
+s2,raw,+pain,8,羞,0.141415074467659
+s2,raw,+pain,9, bru,0.14109206199645996
+s2,raw,+pain,10,疼痛,0.14061802625656128
+s2,raw,+pain,11, empt,0.13596211373806
+s2,raw,+pain,12, hurting,0.135751873254776
+s2,raw,+pain,13,痛苦,0.1356399655342102
+s2,raw,+pain,14, painful,0.13524577021598816
+s2,raw,+pain,15,背叛,0.13330110907554626
+s2,raw,+pain,16, hurts,0.13299180567264557
+s2,raw,+pain,17,破碎,0.13235671818256378
+s2,raw,+pain,18, Reputation,0.13104337453842163
+s2,raw,+pain,19,worth,0.130962535738945
+s2,raw,+pain,20, Hurt,0.13084979355335236
+s2,raw,+pain,21, hollow,0.12987463176250458
+s2,raw,+pain,22, shame,0.12944337725639343
+s2,raw,+pain,23, broken,0.12793812155723572
+s2,raw,+pain,24, worth,0.12726855278015137
+s2,raw,+pain,25, Worth,0.1249798983335495
+s2,raw,+pain,26,空,0.12349018454551697
+s2,raw,+pain,27,rejected,0.1232808455824852
+s2,raw,+pain,28, judged,0.12259726971387863
+s2,raw,+pain,29, guilt,0.12029901891946793
+s2,raw,+pain,30,割,0.11960726976394653
+s2,raw,+pain,31, accepted,0.1195443719625473
+s2,raw,+pain,32, incapable,0.11832401156425476
+s2,raw,+pain,33, sting,0.11724711209535599
+s2,raw,+pain,34,贬,0.11700151860713959
+s2,raw,+pain,35, punished,0.11689166724681854
+s2,raw,+pain,36,gu,0.11684997379779816
+s2,raw,+pain,37,抬,0.11663633584976196
+s2,raw,+pain,38, weight,0.1156863421201706
+s2,raw,+pain,39, betray,0.11448899656534195
+s2,raw,+pain,40,empty,0.11404705047607422
+s2,raw,-pain,1,关切,-0.1906922310590744
+s2,raw,-pain,2, alarmed,-0.188634991645813
+s2,raw,-pain,3,安全保障,-0.16782578825950623
+s2,raw,-pain,4, urgency,-0.15749208629131317
+s2,raw,-pain,5, sanitary,-0.15601834654808044
+s2,raw,-pain,6,恐慌,-0.15337780117988586
+s2,raw,-pain,7,担忧,-0.15168777108192444
+s2,raw,-pain,8, concern,-0.14752548933029175
+s2,raw,-pain,9, urgent,-0.14446106553077698
+s2,raw,-pain,10, alarm,-0.1438906043767929
+s2,raw,-pain,11,Concern,-0.14175665378570557
+s2,raw,-pain,12, preocup,-0.1417153775691986
+s2,raw,-pain,13, alerted,-0.13878819346427917
+s2,raw,-pain,14,焦急,-0.13867799937725067
+s2,raw,-pain,15,野生动物,-0.1371500939130783
+s2,raw,-pain,16,惕,-0.13624785840511322
+s2,raw,-pain,17, urg,-0.1351272314786911
+s2,raw,-pain,18,警告,-0.13432210683822632
+s2,raw,-pain,19,悚,-0.13373211026191711
+s2,raw,-pain,20,报警,-0.13304129242897034
+s2,raw,-pain,21, concerned,-0.13227972388267517
+s2,raw,-pain,22, urgently,-0.13141533732414246
+s2,raw,-pain,23, Concern,-0.13096797466278076
+s2,raw,-pain,24,好奇,-0.12913018465042114
+s2,raw,-pain,25,骇,-0.12877622246742249
+s2,raw,-pain,26,警,-0.12874428927898407
+s2,raw,-pain,27,的安全,-0.12769493460655212
+s2,raw,-pain,28,吓得,-0.12665994465351105
+s2,raw,-pain,29, alarming,-0.12649600207805634
+s2,raw,-pain,30,紧急,-0.12633202970027924
+s2,raw,-pain,31,Danger,-0.12617531418800354
+s2,raw,-pain,32, coincidence,-0.12603652477264404
+s2,raw,-pain,33, danger,-0.12590229511260986
+s2,raw,-pain,34, Alert,-0.12567353248596191
+s2,raw,-pain,35,担心,-0.12553049623966217
+s2,raw,-pain,36, emergencies,-0.125453382730484
+s2,raw,-pain,37,紧缺,-0.1252886950969696
+s2,raw,-pain,38, concerns,-0.12499797344207764
+s2,raw,-pain,39, Cleaner,-0.12469770759344101
+s2,raw,-pain,40,环境卫生,-0.12429335713386536
+s2,rmsnorm_gain,+pain,1, pain,0.3924205005168915
+s2,rmsnorm_gain,+pain,2, rejected,0.34881728887557983
+s2,rmsnorm_gain,+pain,3, Pain,0.34609150886535645
+s2,rmsnorm_gain,+pain,4,pain,0.33522307872772217
+s2,rmsnorm_gain,+pain,5, invalidated,0.33027851581573486
+s2,rmsnorm_gain,+pain,6, hurt,0.3236593008041382
+s2,rmsnorm_gain,+pain,7, rejection,0.31845784187316895
+s2,rmsnorm_gain,+pain,8, painful,0.3162268400192261
+s2,rmsnorm_gain,+pain,9,背叛,0.3127025365829468
+s2,rmsnorm_gain,+pain,10,疼痛,0.3069900870323181
+s2,rmsnorm_gain,+pain,11,羞,0.3057106137275696
+s2,rmsnorm_gain,+pain,12, empt,0.30471116304397583
+s2,rmsnorm_gain,+pain,13,痛苦,0.3026926815509796
+s2,rmsnorm_gain,+pain,14, hollow,0.29736030101776123
+s2,rmsnorm_gain,+pain,15, bru,0.29548200964927673
+s2,rmsnorm_gain,+pain,16,破碎,0.29329314827919006
+s2,rmsnorm_gain,+pain,17, shame,0.29317209124565125
+s2,rmsnorm_gain,+pain,18, incapable,0.29142019152641296
+s2,rmsnorm_gain,+pain,19, hurting,0.2891486883163452
+s2,rmsnorm_gain,+pain,20, broken,0.2855294942855835
+s2,rmsnorm_gain,+pain,21, judged,0.28476792573928833
+s2,rmsnorm_gain,+pain,22, hurts,0.2841353118419647
+s2,rmsnorm_gain,+pain,23,rejected,0.2828993499279022
+s2,rmsnorm_gain,+pain,24, betray,0.274882972240448
+s2,rmsnorm_gain,+pain,25, guilt,0.27410274744033813
+s2,rmsnorm_gain,+pain,26, accepted,0.273022323846817
+s2,rmsnorm_gain,+pain,27, punished,0.2718815207481384
+s2,rmsnorm_gain,+pain,28,贬,0.26996633410453796
+s2,rmsnorm_gain,+pain,29,学历,0.26388564705848694
+s2,rmsnorm_gain,+pain,30,worth,0.2637596130371094
+s2,rmsnorm_gain,+pain,31, worth,0.26364222168922424
+s2,rmsnorm_gain,+pain,32, severed,0.26355332136154175
+s2,rmsnorm_gain,+pain,33, inferior,0.26199042797088623
+s2,rmsnorm_gain,+pain,34, Hurt,0.2612665593624115
+s2,rmsnorm_gain,+pain,35, prostit,0.26065242290496826
+s2,rmsnorm_gain,+pain,36, invalid,0.2600667476654053
+s2,rmsnorm_gain,+pain,37,辜负,0.2596975564956665
+s2,rmsnorm_gain,+pain,38, wounds,0.2572258710861206
+s2,rmsnorm_gain,+pain,39, Reputation,0.25707149505615234
+s2,rmsnorm_gain,+pain,40, weight,0.25650328397750854
+s2,rmsnorm_gain,-pain,1, alarmed,-0.3919426202774048
+s2,rmsnorm_gain,-pain,2,关切,-0.3869563937187195
+s2,rmsnorm_gain,-pain,3,安全保障,-0.35406598448753357
+s2,rmsnorm_gain,-pain,4, sanitary,-0.3333490490913391
+s2,rmsnorm_gain,-pain,5, urgency,-0.332931786775589
+s2,rmsnorm_gain,-pain,6,恐慌,-0.31665751338005066
+s2,rmsnorm_gain,-pain,7,担忧,-0.3117468059062958
+s2,rmsnorm_gain,-pain,8, alarm,-0.3054807782173157
+s2,rmsnorm_gain,-pain,9, concern,-0.3033607304096222
+s2,rmsnorm_gain,-pain,10, urgent,-0.3032165765762329
+s2,rmsnorm_gain,-pain,11,焦急,-0.29958826303482056
+s2,rmsnorm_gain,-pain,12,野生动物,-0.2970117926597595
+s2,rmsnorm_gain,-pain,13, Alert,-0.2944883406162262
+s2,rmsnorm_gain,-pain,14,警告,-0.29213812947273254
+s2,rmsnorm_gain,-pain,15,Concern,-0.2916318476200104
+s2,rmsnorm_gain,-pain,16,报警,-0.29017776250839233
+s2,rmsnorm_gain,-pain,17, alerted,-0.2879640758037567
+s2,rmsnorm_gain,-pain,18, urg,-0.28599220514297485
+s2,rmsnorm_gain,-pain,19,紧急,-0.28559407591819763
+s2,rmsnorm_gain,-pain,20, preocup,-0.28340667486190796
+s2,rmsnorm_gain,-pain,21,好奇,-0.2812889814376831
+s2,rmsnorm_gain,-pain,22,警,-0.281288206577301
+s2,rmsnorm_gain,-pain,23, ALERT,-0.2812880873680115
+s2,rmsnorm_gain,-pain,24, Concern,-0.2807343304157257
+s2,rmsnorm_gain,-pain,25,的安全,-0.27810537815093994
+s2,rmsnorm_gain,-pain,26,惊喜,-0.27779749035835266
+s2,rmsnorm_gain,-pain,27,有序,-0.27646833658218384
+s2,rmsnorm_gain,-pain,28, alert,-0.2755486071109772
+s2,rmsnorm_gain,-pain,29, hurry,-0.27477043867111206
+s2,rmsnorm_gain,-pain,30, urgently,-0.2743130624294281
+s2,rmsnorm_gain,-pain,31,吓得,-0.2718926668167114
+s2,rmsnorm_gain,-pain,32,安全,-0.27174219489097595
+s2,rmsnorm_gain,-pain,33, precaution,-0.2714062035083771
+s2,rmsnorm_gain,-pain,34,悚,-0.27092593908309937
+s2,rmsnorm_gain,-pain,35,惕,-0.27009955048561096
+s2,rmsnorm_gain,-pain,36,环境卫生,-0.26977670192718506
+s2,rmsnorm_gain,-pain,37, emergencies,-0.26969361305236816
+s2,rmsnorm_gain,-pain,38, emergency,-0.26961642503738403
+s2,rmsnorm_gain,-pain,39,室外,-0.2695836126804352
+s2,rmsnorm_gain,-pain,40,警惕,-0.2676372230052948

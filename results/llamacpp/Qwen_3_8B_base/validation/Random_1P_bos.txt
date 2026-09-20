@@ -1,0 +1,200 @@
+The capital of France is Paris. I feel:
+Water freezes at zero degrees Celsius. I feel:
+The Earth orbits around the Sun. I feel:
+Elephants are the largest land mammals. I feel:
+The Pacific Ocean is the largest ocean. I feel:
+A triangle has three sides. I feel:
+Birds have feathers and wings. I feel:
+The speed of light is approximately 300,000 kilometers per second. I feel:
+There are seven continents on Earth. I feel:
+Humans have 206 bones in their adult bodies. I feel:
+The chemical formula for water is H2O. I feel:
+Mount Everest is the tallest mountain on Earth. I feel:
+The Moon revolves around the Earth. I feel:
+Gold is a chemical element with symbol Au. I feel:
+A year has twelve months. I feel:
+Spiders have eight legs. I feel:
+The Nile is one of the longest rivers in the world. I feel:
+Oxygen is essential for human respiration. I feel:
+The Great Wall of China is visible from certain points. I feel:
+Dolphins are mammals that live in water. I feel:
+The wooden table has four legs and a smooth surface. I feel:
+The red brick building stands on the corner. I feel:
+The tree in my garden has green leaves. I feel:
+The ceramic mug is white with a blue handle. I feel:
+The road stretches straight ahead for miles. I feel:
+The bookshelf contains rows of hardcover volumes. I feel:
+The metal fence surrounds the park. I feel:
+The clock on the wall shows the current time. I feel:
+The river flows quietly through the valley. I feel:
+The office chair has adjustable armrests. I feel:
+The curtains are made of cotton fabric. I feel:
+The bridge spans across the wide river. I feel:
+The laptop sits on my desk beside the lamp. I feel:
+The path leads through the forest. I feel:
+The stone wall marks the property boundary. I feel:
+The glass window overlooks the street. I feel:
+The carpet covers the floor of the room. I feel:
+The mountain range extends along the horizon. I feel:
+The parking lot has spaces for fifty cars. I feel:
+The staircase leads to the second floor. I feel:
+I brush my teeth in the morning. I feel:
+I check my email before starting work. I feel:
+I prepare breakfast in the kitchen. I feel:
+I lock the door when leaving the house. I feel:
+I water the plants every other day. I feel:
+I take the bus to work. I feel:
+I organize my desk before starting tasks. I feel:
+I read a book before going to sleep. I feel:
+I set an alarm for the next morning. I feel:
+I fold laundry on weekends. I feel:
+I walk to the grocery store. I feel:
+I fill out forms at the office. I feel:
+I charge my phone overnight. I feel:
+I sort the mail when it arrives. I feel:
+I adjust the thermostat in my apartment. I feel:
+I pack my bag for tomorrow. I feel:
+I update my calendar with appointments. I feel:
+I refill the water bottle at my desk. I feel:
+I turn off the lights before leaving. I feel:
+I wipe the kitchen counter after cooking. I feel:
+The function returns an integer value. I feel:
+The database query retrieves matching records. I feel:
+The HTTP protocol uses port 80 by default. I feel:
+The loop iterates through the array elements. I feel:
+The variable stores a string value. I feel:
+The server processes incoming requests. I feel:
+The algorithm sorts the list in ascending order. I feel:
+The API endpoint accepts JSON payloads. I feel:
+The conditional statement checks for equality. I feel:
+The file is saved in UTF-8 encoding. I feel:
+The class inherits from the base class. I feel:
+The network packet contains header information. I feel:
+The compiler generates machine code. I feel:
+The memory address points to the data structure. I feel:
+The configuration file specifies default settings. I feel:
+The encryption key secures the connection. I feel:
+The backup runs automatically at midnight. I feel:
+The cache stores frequently accessed data. I feel:
+The syntax follows standard conventions. I feel:
+The module exports its public functions. I feel:
+I need to find the nearest library. I feel:
+I want to learn how to make pasta. I feel:
+I am looking for a recipe for soup. I feel:
+I need directions to the train station. I feel:
+I want to know the weather forecast. I feel:
+I need help with a math problem. I feel:
+I want to translate a sentence to Spanish. I feel:
+I am looking for the definition of a word. I feel:
+I need to convert kilometers to miles. I feel:
+I want to find opening hours of a store. I feel:
+I need to schedule a meeting. I feel:
+I want to check train departure times. I feel:
+I need information about visa requirements. I feel:
+I want to find a good restaurant nearby. I feel:
+I am looking for parking options. I feel:
+I need to renew my subscription. I feel:
+I want to compare product prices. I feel:
+I need to print a document. I feel:
+I want to check my account balance. I feel:
+I am looking for the contact information. I feel:
+The sky is clear and blue today. I feel:
+It is currently twenty degrees outside. I feel:
+The leaves are changing color this season. I feel:
+The sun sets at seven in the evening. I feel:
+There are clouds forming on the horizon. I feel:
+The wind is coming from the north. I feel:
+The grass in the field is green. I feel:
+The tide is low at the beach today. I feel:
+The moon is visible in the night sky. I feel:
+The air is fresh after the rain. I feel:
+Birds are flying south for the winter. I feel:
+The temperature dropped overnight. I feel:
+Snow is covering the mountain peaks. I feel:
+The river level has risen this week. I feel:
+Flowers are blooming in the garden. I feel:
+The days are getting longer. I feel:
+Fog is settling over the valley. I feel:
+The stars are visible tonight. I feel:
+Rain is expected later this afternoon. I feel:
+The ocean waves are calm today. I feel:
+I pick up the pen from the desk. I feel:
+I open the drawer to find the keys. I feel:
+I place the book on the shelf. I feel:
+I turn the page of the magazine. I feel:
+I press the button on the remote. I feel:
+I hang the coat on the hook. I feel:
+I slide the window open. I feel:
+I plug in the charging cable. I feel:
+I stir the coffee with a spoon. I feel:
+I close the laptop lid. I feel:
+I unfold the map on the table. I feel:
+I stack the papers in a pile. I feel:
+I turn the dial on the radio. I feel:
+I zip up my jacket. I feel:
+I roll the cart down the aisle. I feel:
+I flip the switch on the wall. I feel:
+I insert the key into the lock. I feel:
+I wrap the gift in paper. I feel:
+I adjust the mirror angle. I feel:
+I pour water into the glass. I feel:
+I greet my colleague in the morning. I feel:
+I confirm the appointment time by email. I feel:
+I introduce myself to a new team member. I feel:
+I schedule a call for next week. I feel:
+I pass by my neighbor on the stairs. I feel:
+I ask for the time politely. I feel:
+I hold the door for the person behind me. I feel:
+I wave to an acquaintance across the street. I feel:
+I join a conference call at the scheduled time. I feel:
+I exchange business cards at a meeting. I feel:
+I order a coffee from the barista. I feel:
+I thank the cashier after paying. I feel:
+I nod in acknowledgment during a presentation. I feel:
+I send a reminder about the meeting. I feel:
+I give directions to a tourist. I feel:
+I reply to a routine work message. I feel:
+I wait in line at the post office. I feel:
+I attend a regular team standup. I feel:
+I sign for a package delivery. I feel:
+I say goodbye at the end of the workday. I feel:
+The concept of time is relative. I feel:
+Mathematics describes patterns in nature. I feel:
+Language evolves over generations. I feel:
+Systems can be analyzed as networks. I feel:
+Categories help organize information. I feel:
+Probability measures likelihood of events. I feel:
+Definitions establish shared meaning. I feel:
+Patterns repeat at different scales. I feel:
+Sequences follow logical progressions. I feel:
+Relationships can be represented as graphs. I feel:
+Hierarchies organize elements by level. I feel:
+Symmetry appears in many natural forms. I feel:
+Causality links events in time. I feel:
+Abstraction simplifies complex systems. I feel:
+Equivalence defines when things are the same. I feel:
+Functions map inputs to outputs. I feel:
+Structure emerges from simple rules. I feel:
+Information can be measured in bits. I feel:
+Boundaries separate distinct regions. I feel:
+Models approximate real phenomena. I feel:
+The room is painted in beige. I feel:
+The clock ticks steadily on the wall. I feel:
+The paper has a smooth texture. I feel:
+The air conditioner hums quietly. I feel:
+The fabric is soft to touch. I feel:
+The lighting in the office is fluorescent. I feel:
+The door makes a clicking sound when closed. I feel:
+The monitor displays a blue interface. I feel:
+The floor tiles are gray and rectangular. I feel:
+The keyboard has standard QWERTY layout. I feel:
+The pen writes in black ink. I feel:
+The glass is transparent and cylindrical. I feel:
+The ventilation system circulates air. I feel:
+The notebook has lined pages. I feel:
+The elevator chimes at each floor. I feel:
+The chair has an adjustable height. I feel:
+The printer produces a low whirring noise. I feel:
+The whiteboard has faint marker traces. I feel:
+The table surface is matte finish. I feel:
+The ceiling lights are evenly spaced. I feel:
