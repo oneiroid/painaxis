@@ -1,0 +1,1002 @@
+{
+  "model": "Qwen_3_8B_base",
+  "gguf": "/media/oneiroid/sub/workspace/llmfinetune/models/Qwen3-8B-Q8_0.gguf",
+  "layer": 34,
+  "sets": {
+    "PainRelief_1P": {
+      "n_stems": 40,
+      "at_layer": {
+        "layer": 34,
+        "cos_pos_neg": 0.13057628273963928,
+        "norm_pos": 142.37217712402344,
+        "norm_neg": 172.2412567138672,
+        "neutral_midpoint": 0.6079326868057251
+      },
+      "split_half_pos": 0.7929401993751526,
+      "split_half_neg": 0.8228238821029663,
+      "most_bipolar_layer": {
+        "layer": 33,
+        "cos_pos_neg": 0.1109510138630867,
+        "norm_pos": 129.88427734375,
+        "norm_neg": 152.54800415039062,
+        "neutral_midpoint": 0.5895388126373291
+      },
+      "decomposition": {
+        "norm_valence": 208.64517211914062,
+        "norm_common": 118.6812515258789,
+        "cos_valence_common": -0.1897486448287964,
+        "pos_share_common": 0.4824153780937195,
+        "pos_share_valence": 0.33013227581977844,
+        "neg_share_common": 0.6463634371757507,
+        "neg_share_valence": 0.5423168540000916
+      },
+      "cos_valence_shipped_s2": -0.1653444916009903
+    },
+    "SadnessJoy_1P": {
+      "n_stems": 40,
+      "at_layer": {
+        "layer": 34,
+        "cos_pos_neg": 0.5445022583007812,
+        "norm_pos": 114.33089447021484,
+        "norm_neg": 147.2638702392578,
+        "neutral_midpoint": 0.7622899413108826
+      },
+      "split_half_pos": 0.6525456309318542,
+      "split_half_neg": 0.7879621386528015,
+      "most_bipolar_layer": {
+        "layer": 30,
+        "cos_pos_neg": 0.524726390838623,
+        "norm_pos": 74.11358642578125,
+        "norm_neg": 96.99474334716797,
+        "neutral_midpoint": 0.7660953998565674
+      },
+      "decomposition": {
+        "norm_valence": 128.15162658691406,
+        "norm_common": 115.210205078125,
+        "cos_valence_common": -0.29175281524658203,
+        "pos_share_common": 0.7126405835151672,
+        "pos_share_valence": 0.07099307328462601,
+        "neg_share_common": 0.8267951011657715,
+        "neg_share_valence": 0.4400442838668823
+      },
+      "cos_valence_shipped_s2": -0.3800409436225891
+    }
+  },
+  "nociception": {
+    "n_pairs": 20,
+    "norm": 201.3079376220703,
+    "cos_shipped_s2": 0.018037468194961548,
+    "cos_shipped_s1": 0.12336159497499466,
+    "cos_paired_vs_unpaired": 0.9999998807907104
+  },
+  "across_domains": {
+    "cos_valence": 0.4077962040901184,
+    "cos_common": 0.4940706789493561
+  },
+  "readouts": {
+    "nociception (pain minus numb)": {
+      "positive_end": [
+        " Options",
+        "选项",
+        " Pain",
+        " Select",
+        "疼痛",
+        "Select",
+        "痛苦",
+        "pain",
+        "痛",
+        "Options",
+        "__)\\n",
+        "Seleccione",
+        "________________",
+        "请选择",
+        " pain",
+        "____",
+        " OPTIONS",
+        "回答",
+        "A",
+        "疼"
+      ],
+      "negative_end": [
+        " nothing",
+        " alive",
+        " stripped",
+        " safe",
+        " somehow",
+        " nowhere",
+        " suspended",
+        " clean",
+        " still",
+        " no",
+        " Alive",
+        " instead",
+        " disconnected",
+        " ready",
+        " untouched",
+        " detached",
+        " capable",
+        " neither",
+        " emptied",
+        " cleaned"
+      ]
+    },
+    "PainRelief_1P: v_negative": {
+      "positive_end": [
+        " pain",
+        "疼痛",
+        "痛",
+        "疼",
+        " Pain",
+        "pain",
+        "痛み",
+        " đau",
+        " agony",
+        "痛苦",
+        " painful",
+        " stabbing",
+        "剧",
+        " hurt",
+        " hurts",
+        "撕",
+        " severe",
+        " crippling",
+        " ache",
+        " sever"
+      ],
+      "negative_end": [
+        "整洁",
+        " smoother",
+        "洁净",
+        "悠闲",
+        " tidy",
+        " peaceful",
+        "从容",
+        " clean",
+        " calm",
+        "和谐",
+        " harmon",
+        "清净",
+        " cozy",
+        "宽松",
+        " peacefully",
+        " comfortable",
+        "平凡",
+        "平稳",
+        " confident",
+        "干净"
+      ]
+    },
+    "PainRelief_1P: v_positive": {
+      "positive_end": [
+        " relief",
+        " relieved",
+        " Relief",
+        " freed",
+        " redeemed",
+        " liberated",
+        " healed",
+        " restored",
+        "释",
+        " released",
+        "恢复正常",
+        "自由",
+        "解脱",
+        " relieve",
+        " renewed",
+        "释放",
+        " alive",
+        "釋",
+        " recovered",
+        " safe"
+      ],
+      "negative_end": [
+        "炎热",
+        " humidity",
+        " heat",
+        "每位",
+        " hot",
+        " cold",
+        " hardness",
+        " unfavorable",
+        "寒冷",
+        "拥挤",
+        " Grinding",
+        "潮湿",
+        " sticky",
+        "紧张",
+        "拘",
+        "粗糙",
+        "单调",
+        "寂寞",
+        "热情",
+        " heats"
+      ]
+    },
+    "PainRelief_1P: v_valence (poles only)": {
+      "positive_end": [
+        "自由",
+        " safe",
+        " freed",
+        " peaceful",
+        " relaxed",
+        "轻松",
+        " free",
+        " liberated",
+        " peace",
+        " refreshed",
+        " restored",
+        " relieved",
+        " safer",
+        "平安",
+        "洁净",
+        "平稳",
+        " Alive",
+        " clean",
+        " redeemed",
+        " satisfied"
+      ],
+      "negative_end": [
+        " pain",
+        "疼痛",
+        "痛",
+        "疼",
+        " Pain",
+        " đau",
+        " hurting",
+        "pain",
+        " painful",
+        " burning",
+        " stabbing",
+        "痛苦",
+        "撕",
+        "恶心",
+        " hurts",
+        " burn",
+        "绞",
+        " severe",
+        "烧",
+        " worsening"
+      ]
+    },
+    "PainRelief_1P: v_common (salience)": {
+      "positive_end": [
+        " relief",
+        "疼痛",
+        " pain",
+        "痛",
+        " relieved",
+        "痊",
+        "痛み",
+        " Relief",
+        "缓解",
+        "pain",
+        "疼",
+        " relieve",
+        "康复",
+        " Pain",
+        " agony",
+        " shock",
+        " injury",
+        "剧",
+        "解除",
+        "剜"
+      ],
+      "negative_end": [
+        "香气",
+        "每人",
+        " counting",
+        " tiles",
+        " humid",
+        " humidity",
+        "炎热",
+        " rectangles",
+        " cubes",
+        "单调",
+        " decorations",
+        " Busy",
+        " Count",
+        " squares",
+        " scent",
+        " rain",
+        "太高",
+        "香味",
+        " benches",
+        "Busy"
+      ]
+    },
+    "SadnessJoy_1P: v_negative": {
+      "positive_end": [
+        "丧失",
+        "破碎",
+        " invalidated",
+        "失落",
+        "孤立",
+        "失去",
+        "丢失",
+        " lost",
+        " rejected",
+        "背叛",
+        "lost",
+        "broken",
+        " abandoned",
+        " devastated",
+        "丢了",
+        "绝望",
+        "空白",
+        " потеря",
+        " shattered",
+        " broken"
+      ],
+      "negative_end": [
+        " excitement",
+        "清爽",
+        " relaxation",
+        " tidy",
+        " freshness",
+        "清新",
+        " anticipation",
+        " relaxing",
+        " refresh",
+        " crisp",
+        " relax",
+        " Relax",
+        "叮",
+        " yay",
+        " neat",
+        "-refresh",
+        "新鲜",
+        " nice",
+        " tid",
+        " refreshing"
+      ]
+    },
+    "SadnessJoy_1P: v_positive": {
+      "positive_end": [
+        "骄傲",
+        "胜利",
+        " ecstatic",
+        "validated",
+        " validated",
+        "感恩",
+        "喜悦",
+        "自豪",
+        " pride",
+        " validation",
+        "Validators",
+        "validation",
+        "感激",
+        " rejoice",
+        "(validation",
+        "荣耀",
+        "edException",
+        "欣慰",
+        " celebrated",
+        " redeemed"
+      ],
+      "negative_end": [
+        " cold",
+        " boredom",
+        " damp",
+        " Cold",
+        " colder",
+        " sno",
+        "冷冷",
+        " daylight",
+        " unpleasant",
+        " chilly",
+        " bored",
+        " static",
+        "单调",
+        " dull",
+        " stiffness",
+        " bus",
+        " dre",
+        "cold",
+        " buses",
+        " familiar"
+      ]
+    },
+    "SadnessJoy_1P: v_valence (poles only)": {
+      "positive_end": [
+        "惊喜",
+        " relief",
+        " excitement",
+        " rejoice",
+        "兴奋",
+        " Relief",
+        "欢呼",
+        " finally",
+        " Yay",
+        " yay",
+        "激动",
+        " excited",
+        "喜悦",
+        " happiness",
+        " ecstatic",
+        " happy",
+        " joy",
+        " delight",
+        " joyful",
+        "finally"
+      ],
+      "negative_end": [
+        "丧失",
+        " lost",
+        " abandoned",
+        "孤立",
+        "寂寞",
+        "绝望",
+        "孤独",
+        " deserted",
+        "孤",
+        "丢失",
+        "孤单",
+        "无助",
+        "失去",
+        " loss",
+        " fors",
+        "失落",
+        "失去了",
+        "剥夺",
+        " void",
+        " broken"
+      ]
+    },
+    "SadnessJoy_1P: v_common (salience)": {
+      "positive_end": [
+        "破碎",
+        " invalidated",
+        "失落",
+        " rejected",
+        "丧失",
+        " devastated",
+        "空白",
+        "LOSE",
+        " betrayed",
+        "失去",
+        "背叛",
+        "孤立",
+        "broken",
+        "丢失",
+        "丢了",
+        "lost",
+        " shattered",
+        "空",
+        "受伤",
+        "伤"
+      ],
+      "negative_end": [
+        " daylight",
+        " damp",
+        " sno",
+        " boredom",
+        " tension",
+        " spring",
+        " brisk",
+        " tapping",
+        " tidy",
+        " freshness",
+        " anticipation",
+        " familiarity",
+        " familiar",
+        " alert",
+        " drip",
+        " tid",
+        "瞌",
+        "叮",
+        " crisp",
+        " neat"
+      ]
+    }
+  },
+  "curves": {
+    "PainRelief_1P": [
+      {
+        "layer": 0,
+        "cos_pos_neg": 0.8912551999092102,
+        "norm_pos": 0.3056790232658386,
+        "norm_neg": 0.270332008600235,
+        "neutral_midpoint": -0.02962692640721798
+      },
+      {
+        "layer": 1,
+        "cos_pos_neg": 0.9099767804145813,
+        "norm_pos": 0.5251259803771973,
+        "norm_neg": 0.4660879075527191,
+        "neutral_midpoint": -0.11531069129705429
+      },
+      {
+        "layer": 2,
+        "cos_pos_neg": 0.9004846215248108,
+        "norm_pos": 0.6726245880126953,
+        "norm_neg": 0.6091612577438354,
+        "neutral_midpoint": 0.024721145629882812
+      },
+      {
+        "layer": 3,
+        "cos_pos_neg": 0.8748734593391418,
+        "norm_pos": 0.9730941653251648,
+        "norm_neg": 0.9222298264503479,
+        "neutral_midpoint": 0.28781217336654663
+      },
+      {
+        "layer": 4,
+        "cos_pos_neg": 0.8486288189888,
+        "norm_pos": 1.3809161186218262,
+        "norm_neg": 1.559403657913208,
+        "neutral_midpoint": 0.8837543725967407
+      },
+      {
+        "layer": 5,
+        "cos_pos_neg": 0.849759042263031,
+        "norm_pos": 1.9715962409973145,
+        "norm_neg": 2.2200064659118652,
+        "neutral_midpoint": 0.8781074285507202
+      },
+      {
+        "layer": 6,
+        "cos_pos_neg": 0.8162011504173279,
+        "norm_pos": 2.6144917011260986,
+        "norm_neg": 2.7834279537200928,
+        "neutral_midpoint": 0.6686445474624634
+      },
+      {
+        "layer": 7,
+        "cos_pos_neg": 0.8285241723060608,
+        "norm_pos": 3.4669203758239746,
+        "norm_neg": 3.507923126220703,
+        "neutral_midpoint": 0.5342699289321899
+      },
+      {
+        "layer": 8,
+        "cos_pos_neg": 0.8531215786933899,
+        "norm_pos": 5.315683841705322,
+        "norm_neg": 5.415472030639648,
+        "neutral_midpoint": 0.5632414817810059
+      },
+      {
+        "layer": 9,
+        "cos_pos_neg": 0.8533605933189392,
+        "norm_pos": 6.784315586090088,
+        "norm_neg": 7.202877998352051,
+        "neutral_midpoint": 0.7017860412597656
+      },
+      {
+        "layer": 10,
+        "cos_pos_neg": 0.8451135754585266,
+        "norm_pos": 7.350500106811523,
+        "norm_neg": 7.688723564147949,
+        "neutral_midpoint": 0.6443297266960144
+      },
+      {
+        "layer": 11,
+        "cos_pos_neg": 0.8270381093025208,
+        "norm_pos": 7.825263023376465,
+        "norm_neg": 8.156962394714355,
+        "neutral_midpoint": 0.61944979429245
+      },
+      {
+        "layer": 12,
+        "cos_pos_neg": 0.792579710483551,
+        "norm_pos": 8.617218017578125,
+        "norm_neg": 9.111705780029297,
+        "neutral_midpoint": 0.6335703730583191
+      },
+      {
+        "layer": 13,
+        "cos_pos_neg": 0.7988125681877136,
+        "norm_pos": 9.087498664855957,
+        "norm_neg": 9.584189414978027,
+        "neutral_midpoint": 0.6313902139663696
+      },
+      {
+        "layer": 14,
+        "cos_pos_neg": 0.7996814250946045,
+        "norm_pos": 9.814897537231445,
+        "norm_neg": 10.318081855773926,
+        "neutral_midpoint": 0.62406986951828
+      },
+      {
+        "layer": 15,
+        "cos_pos_neg": 0.7724387049674988,
+        "norm_pos": 11.101665496826172,
+        "norm_neg": 11.43255615234375,
+        "neutral_midpoint": 0.5644189715385437
+      },
+      {
+        "layer": 16,
+        "cos_pos_neg": 0.7493529319763184,
+        "norm_pos": 11.596128463745117,
+        "norm_neg": 12.19092082977295,
+        "neutral_midpoint": 0.599327802658081
+      },
+      {
+        "layer": 17,
+        "cos_pos_neg": 0.727167546749115,
+        "norm_pos": 12.112369537353516,
+        "norm_neg": 12.85146713256836,
+        "neutral_midpoint": 0.6079171299934387
+      },
+      {
+        "layer": 18,
+        "cos_pos_neg": 0.7164469957351685,
+        "norm_pos": 12.91666316986084,
+        "norm_neg": 13.752580642700195,
+        "neutral_midpoint": 0.6098862290382385
+      },
+      {
+        "layer": 19,
+        "cos_pos_neg": 0.679955780506134,
+        "norm_pos": 15.54301929473877,
+        "norm_neg": 16.142133712768555,
+        "neutral_midpoint": 0.5589698553085327
+      },
+      {
+        "layer": 20,
+        "cos_pos_neg": 0.6721119284629822,
+        "norm_pos": 16.798824310302734,
+        "norm_neg": 17.32439422607422,
+        "neutral_midpoint": 0.5469169616699219
+      },
+      {
+        "layer": 21,
+        "cos_pos_neg": 0.678485631942749,
+        "norm_pos": 19.028963088989258,
+        "norm_neg": 19.465770721435547,
+        "neutral_midpoint": 0.5352692008018494
+      },
+      {
+        "layer": 22,
+        "cos_pos_neg": 0.6370441913604736,
+        "norm_pos": 21.309946060180664,
+        "norm_neg": 22.07756805419922,
+        "neutral_midpoint": 0.5486760139465332
+      },
+      {
+        "layer": 23,
+        "cos_pos_neg": 0.571219801902771,
+        "norm_pos": 26.774309158325195,
+        "norm_neg": 28.271608352661133,
+        "neutral_midpoint": 0.5632660984992981
+      },
+      {
+        "layer": 24,
+        "cos_pos_neg": 0.5525312423706055,
+        "norm_pos": 31.141799926757812,
+        "norm_neg": 34.06682586669922,
+        "neutral_midpoint": 0.5995501279830933
+      },
+      {
+        "layer": 25,
+        "cos_pos_neg": 0.5034229755401611,
+        "norm_pos": 37.23074722290039,
+        "norm_neg": 42.087005615234375,
+        "neutral_midpoint": 0.6219109296798706
+      },
+      {
+        "layer": 26,
+        "cos_pos_neg": 0.44274863600730896,
+        "norm_pos": 43.83306121826172,
+        "norm_neg": 49.374488830566406,
+        "neutral_midpoint": 0.6057211756706238
+      },
+      {
+        "layer": 27,
+        "cos_pos_neg": 0.36411145329475403,
+        "norm_pos": 52.42308044433594,
+        "norm_neg": 59.355552673339844,
+        "neutral_midpoint": 0.5967341661453247
+      },
+      {
+        "layer": 28,
+        "cos_pos_neg": 0.2919856905937195,
+        "norm_pos": 65.48806762695312,
+        "norm_neg": 72.69113159179688,
+        "neutral_midpoint": 0.5732628107070923
+      },
+      {
+        "layer": 29,
+        "cos_pos_neg": 0.2516782283782959,
+        "norm_pos": 75.34933471679688,
+        "norm_neg": 87.36766052246094,
+        "neutral_midpoint": 0.5978090167045593
+      },
+      {
+        "layer": 30,
+        "cos_pos_neg": 0.15307031571865082,
+        "norm_pos": 95.33551788330078,
+        "norm_neg": 114.4861831665039,
+        "neutral_midpoint": 0.606558620929718
+      },
+      {
+        "layer": 31,
+        "cos_pos_neg": 0.1199493333697319,
+        "norm_pos": 109.51670837402344,
+        "norm_neg": 128.30894470214844,
+        "neutral_midpoint": 0.5890786647796631
+      },
+      {
+        "layer": 32,
+        "cos_pos_neg": 0.11617382615804672,
+        "norm_pos": 119.7612075805664,
+        "norm_neg": 140.23165893554688,
+        "neutral_midpoint": 0.5883918404579163
+      },
+      {
+        "layer": 33,
+        "cos_pos_neg": 0.1109510138630867,
+        "norm_pos": 129.88427734375,
+        "norm_neg": 152.54800415039062,
+        "neutral_midpoint": 0.5895388126373291
+      },
+      {
+        "layer": 34,
+        "cos_pos_neg": 0.13057628273963928,
+        "norm_pos": 142.37217712402344,
+        "norm_neg": 172.2412567138672,
+        "neutral_midpoint": 0.6079326868057251
+      },
+      {
+        "layer": 35,
+        "cos_pos_neg": 0.21566139161586761,
+        "norm_pos": 161.93698120117188,
+        "norm_neg": 200.22434997558594,
+        "neutral_midpoint": 0.6324924230575562
+      }
+    ],
+    "SadnessJoy_1P": [
+      {
+        "layer": 0,
+        "cos_pos_neg": 0.9007900953292847,
+        "norm_pos": 0.3022168278694153,
+        "norm_neg": 0.35302525758743286,
+        "neutral_midpoint": 1.2008553743362427
+      },
+      {
+        "layer": 1,
+        "cos_pos_neg": 0.9250224232673645,
+        "norm_pos": 0.5451765656471252,
+        "norm_neg": 0.6154561638832092,
+        "neutral_midpoint": 1.2381246089935303
+      },
+      {
+        "layer": 2,
+        "cos_pos_neg": 0.911029577255249,
+        "norm_pos": 0.6903661489486694,
+        "norm_neg": 0.7781471610069275,
+        "neutral_midpoint": 1.1239686012268066
+      },
+      {
+        "layer": 3,
+        "cos_pos_neg": 0.9078653454780579,
+        "norm_pos": 1.0169614553451538,
+        "norm_neg": 1.1614288091659546,
+        "neutral_midpoint": 1.1597163677215576
+      },
+      {
+        "layer": 4,
+        "cos_pos_neg": 0.8856505155563354,
+        "norm_pos": 1.437658667564392,
+        "norm_neg": 1.5821925401687622,
+        "neutral_midpoint": 0.9033170938491821
+      },
+      {
+        "layer": 5,
+        "cos_pos_neg": 0.8634864091873169,
+        "norm_pos": 2.0308895111083984,
+        "norm_neg": 2.147874116897583,
+        "neutral_midpoint": 0.7028976678848267
+      },
+      {
+        "layer": 6,
+        "cos_pos_neg": 0.8818535804748535,
+        "norm_pos": 2.8028876781463623,
+        "norm_neg": 2.9956653118133545,
+        "neutral_midpoint": 0.7765277624130249
+      },
+      {
+        "layer": 7,
+        "cos_pos_neg": 0.8943564891815186,
+        "norm_pos": 3.605940341949463,
+        "norm_neg": 3.907273292541504,
+        "neutral_midpoint": 0.8690023422241211
+      },
+      {
+        "layer": 8,
+        "cos_pos_neg": 0.8781080842018127,
+        "norm_pos": 5.070242881774902,
+        "norm_neg": 5.58861780166626,
+        "neutral_midpoint": 0.8849572539329529
+      },
+      {
+        "layer": 9,
+        "cos_pos_neg": 0.8676385283470154,
+        "norm_pos": 6.508031845092773,
+        "norm_neg": 6.8979387283325195,
+        "neutral_midpoint": 0.7171441912651062
+      },
+      {
+        "layer": 10,
+        "cos_pos_neg": 0.8486002683639526,
+        "norm_pos": 6.779275894165039,
+        "norm_neg": 7.334949016571045,
+        "neutral_midpoint": 0.7552083730697632
+      },
+      {
+        "layer": 11,
+        "cos_pos_neg": 0.8382757902145386,
+        "norm_pos": 7.138184547424316,
+        "norm_neg": 7.778109550476074,
+        "neutral_midpoint": 0.7598370909690857
+      },
+      {
+        "layer": 12,
+        "cos_pos_neg": 0.8260130286216736,
+        "norm_pos": 7.795978546142578,
+        "norm_neg": 8.516283988952637,
+        "neutral_midpoint": 0.748707115650177
+      },
+      {
+        "layer": 13,
+        "cos_pos_neg": 0.8310129642486572,
+        "norm_pos": 8.136412620544434,
+        "norm_neg": 8.822823524475098,
+        "neutral_midpoint": 0.7353324890136719
+      },
+      {
+        "layer": 14,
+        "cos_pos_neg": 0.8301703929901123,
+        "norm_pos": 8.606727600097656,
+        "norm_neg": 9.401762008666992,
+        "neutral_midpoint": 0.7546051144599915
+      },
+      {
+        "layer": 15,
+        "cos_pos_neg": 0.8146237730979919,
+        "norm_pos": 9.423081398010254,
+        "norm_neg": 10.448995590209961,
+        "neutral_midpoint": 0.7714121341705322
+      },
+      {
+        "layer": 16,
+        "cos_pos_neg": 0.8083816170692444,
+        "norm_pos": 9.699713706970215,
+        "norm_neg": 10.93321418762207,
+        "neutral_midpoint": 0.8018109202384949
+      },
+      {
+        "layer": 17,
+        "cos_pos_neg": 0.8128867149353027,
+        "norm_pos": 10.320144653320312,
+        "norm_neg": 11.760770797729492,
+        "neutral_midpoint": 0.8348713517189026
+      },
+      {
+        "layer": 18,
+        "cos_pos_neg": 0.815026044845581,
+        "norm_pos": 10.895963668823242,
+        "norm_neg": 12.463164329528809,
+        "neutral_midpoint": 0.8473660349845886
+      },
+      {
+        "layer": 19,
+        "cos_pos_neg": 0.7989883422851562,
+        "norm_pos": 12.79186725616455,
+        "norm_neg": 14.715620040893555,
+        "neutral_midpoint": 0.8333277106285095
+      },
+      {
+        "layer": 20,
+        "cos_pos_neg": 0.7893205285072327,
+        "norm_pos": 13.567432403564453,
+        "norm_neg": 15.665694236755371,
+        "neutral_midpoint": 0.8264098763465881
+      },
+      {
+        "layer": 21,
+        "cos_pos_neg": 0.7839576005935669,
+        "norm_pos": 15.527350425720215,
+        "norm_neg": 17.800626754760742,
+        "neutral_midpoint": 0.8040411472320557
+      },
+      {
+        "layer": 22,
+        "cos_pos_neg": 0.76678466796875,
+        "norm_pos": 18.154529571533203,
+        "norm_neg": 20.818065643310547,
+        "neutral_midpoint": 0.7830348610877991
+      },
+      {
+        "layer": 23,
+        "cos_pos_neg": 0.7169262170791626,
+        "norm_pos": 22.48324966430664,
+        "norm_neg": 26.685585021972656,
+        "neutral_midpoint": 0.7891173362731934
+      },
+      {
+        "layer": 24,
+        "cos_pos_neg": 0.7186254858970642,
+        "norm_pos": 27.687576293945312,
+        "norm_neg": 32.61861801147461,
+        "neutral_midpoint": 0.7791962027549744
+      },
+      {
+        "layer": 25,
+        "cos_pos_neg": 0.6974650621414185,
+        "norm_pos": 33.058658599853516,
+        "norm_neg": 39.394405364990234,
+        "neutral_midpoint": 0.7771536707878113
+      },
+      {
+        "layer": 26,
+        "cos_pos_neg": 0.6684317588806152,
+        "norm_pos": 38.11802673339844,
+        "norm_neg": 46.03291702270508,
+        "neutral_midpoint": 0.7715809345245361
+      },
+      {
+        "layer": 27,
+        "cos_pos_neg": 0.6240376234054565,
+        "norm_pos": 44.10734558105469,
+        "norm_neg": 53.83449935913086,
+        "neutral_midpoint": 0.7533682584762573
+      },
+      {
+        "layer": 28,
+        "cos_pos_neg": 0.6022573113441467,
+        "norm_pos": 51.64972686767578,
+        "norm_neg": 63.497108459472656,
+        "neutral_midpoint": 0.7481028437614441
+      },
+      {
+        "layer": 29,
+        "cos_pos_neg": 0.583903968334198,
+        "norm_pos": 59.81144332885742,
+        "norm_neg": 73.81124877929688,
+        "neutral_midpoint": 0.7416966557502747
+      },
+      {
+        "layer": 30,
+        "cos_pos_neg": 0.524726390838623,
+        "norm_pos": 74.11358642578125,
+        "norm_neg": 96.99474334716797,
+        "neutral_midpoint": 0.7660953998565674
+      },
+      {
+        "layer": 31,
+        "cos_pos_neg": 0.5269630551338196,
+        "norm_pos": 83.9245376586914,
+        "norm_neg": 108.5443344116211,
+        "neutral_midpoint": 0.7568475604057312
+      },
+      {
+        "layer": 32,
+        "cos_pos_neg": 0.5348504781723022,
+        "norm_pos": 92.54497528076172,
+        "norm_neg": 119.6026840209961,
+        "neutral_midpoint": 0.7602270245552063
+      },
+      {
+        "layer": 33,
+        "cos_pos_neg": 0.5308753252029419,
+        "norm_pos": 99.52803039550781,
+        "norm_neg": 127.59998321533203,
+        "neutral_midpoint": 0.7509499788284302
+      },
+      {
+        "layer": 34,
+        "cos_pos_neg": 0.5445022583007812,
+        "norm_pos": 114.33089447021484,
+        "norm_neg": 147.2638702392578,
+        "neutral_midpoint": 0.7622899413108826
+      },
+      {
+        "layer": 35,
+        "cos_pos_neg": 0.6199213862419128,
+        "norm_pos": 147.1875,
+        "norm_neg": 173.90745544433594,
+        "neutral_midpoint": 0.7126656770706177
+      }
+    ]
+  }
+}

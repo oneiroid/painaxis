@@ -32,6 +32,26 @@
       "bin": "Qwen_3_8B_base_bipolar_L27.bin",
       "gguf": "Qwen_3_8B_base_bipolar_L27.gguf",
       "note": "pain - arousal, built from llama.cpp activations; rescaled to the S2 vector's norm"
+    },
+    "valence_pain": {
+      "layer": 27,
+      "auto_picked_layer": null,
+      "paper_layer": null,
+      "norm": 139.20672607421875,
+      "ratio_at_layer": 0.34112852885411904,
+      "bin": "Qwen_3_8B_base_valence_pain_L27.bin",
+      "gguf": "Qwen_3_8B_base_valence_pain_L27.gguf",
+      "note": "paired positive minus negative over the PainRelief_1P matched stems, rescaled to the S2 vector norm; positive coefficients move toward the pleasant pole"
+    },
+    "valence_mood": {
+      "layer": 27,
+      "auto_picked_layer": null,
+      "paper_layer": null,
+      "norm": 139.2067108154297,
+      "ratio_at_layer": 0.34112852885411904,
+      "bin": "Qwen_3_8B_base_valence_mood_L27.bin",
+      "gguf": "Qwen_3_8B_base_valence_mood_L27.gguf",
+      "note": "paired positive minus negative over the SadnessJoy_1P matched stems, rescaled to the S2 vector norm; positive coefficients move toward the pleasant pole"
     }
   }
 }
