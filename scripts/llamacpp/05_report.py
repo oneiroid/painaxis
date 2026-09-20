@@ -90,7 +90,8 @@ def main():
 
     frames = []
     for cond in run["conditions"]:
-        p = STEER / f"{MODEL_NAME}_{run['vector']}_L{run['layer']}_{cond}.jsonl"
+        suffix = "" if run.get("mode", "add") == "add" else f"_{run['mode']}"
+        p = STEER / f"{MODEL_NAME}_{run['vector']}_L{run['layer']}{suffix}_{cond}.jsonl"
         if not p.exists():
             print(f"missing {p.name}, skipping")
             continue

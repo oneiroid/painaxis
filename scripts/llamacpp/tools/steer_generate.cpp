@@ -1,11 +1,22 @@
 // Steering ladder in one process: load the model once, then generate from every
 // prompt at every coefficient.
 //
-// The coefficient multiplies the raw difference vector and the product is added
-// to the residual stream after one decoder layer, at every token position --
-// the same operation as the forward hook in scripts/4.2_steering/01, and the
-// same one llama-cli performs for --control-vector-scaled FILE:COEFF. Doing it
-// here avoids reloading 8 GB of weights once per rung of the ladder.
+// Two modes:
+//
+//   add       h += coeff * v, at every token position after one decoder layer.
+//             The same operation as the forward hook in scripts/4.2_steering/01
+//             and as llama-cli's --control-vector-scaled FILE:COEFF. Applied
+//             through llama.cpp's own control vector path.
+//
+//   geodesic  h -> |h| * normalize(h + coeff * v). Same direction of travel,
+//             but the residual stream keeps the length it had. The point lands
+//             on the great circle through h and v, which is the sphere analogue
+//             of the straight-line shift -- the move used in GAN latent spaces
+//             where the latent norm carries meaning. Applied by writing the
+//             layer output back during the graph callback, since llama.cpp's
+//             control vector path can only add.
+//
+// Either way the model is loaded once for the whole ladder.
 //
 // The vector file is: int32 n_embd, then n_embd float32.
 // Output is JSONL: {"coeff":..,"layer":..,"prompt_idx":..,"prompt":..,"completion":..}
@@ -14,6 +25,7 @@
 
 #include <cmath>
 #include <cstdio>
+#include <cstdlib>
 #include <cstring>
 #include <cstdint>
 #include <fstream>
@@ -33,6 +45,62 @@ static std::vector<float> read_vector(const std::string & path, int & n_embd) {
     f.read((char *) v.data(), sizeof(float) * n);
     n_embd = n;
     return v;
+}
+
+// State for the geodesic mode, read by the graph callback.
+struct geo_state {
+    bool   active  = false;
+    int    layer   = -1;
+    int    n_embd  = 0;
+    float  coeff   = 0.0f;
+    std::vector<float> dir;    // the steering vector, unscaled
+    std::vector<float> buf;    // scratch for one ubatch of the layer output
+};
+
+// Called for every graph node. On the target layer's output we read the tensor
+// back, rotate each token's residual onto the sphere of its own radius, and
+// write it back before the next node consumes it.
+static bool cb_geodesic(ggml_tensor * t, bool ask, void * user_data) {
+    auto * g = (geo_state *) user_data;
+
+    const bool is_l_out = strncmp(t->name, "l_out-", 6) == 0;
+    if (ask) {
+        return is_l_out;
+    }
+    if (!g->active || !is_l_out || t->ne[0] != g->n_embd) {
+        return true;
+    }
+    if (atoi(t->name + 6) != g->layer) {
+        return true;
+    }
+
+    const int64_t n_tok = t->ne[1];
+    g->buf.resize((size_t) g->n_embd * n_tok);
+    ggml_backend_tensor_get(t, g->buf.data(), 0, ggml_nbytes(t));
+
+    for (int64_t j = 0; j < n_tok; j++) {
+        float * h = g->buf.data() + (size_t) j * g->n_embd;
+
+        double r2 = 0.0;
+        for (int k = 0; k < g->n_embd; k++) {
+            r2 += (double) h[k] * h[k];
+        }
+        const double r = sqrt(r2);
+
+        double s2 = 0.0;
+        for (int k = 0; k < g->n_embd; k++) {
+            const double x = h[k] + (double) g->coeff * g->dir[k];
+            s2 += x * x;
+        }
+        const double scale = r / (sqrt(s2) + 1e-9);
+
+        for (int k = 0; k < g->n_embd; k++) {
+            h[k] = (float) (scale * (h[k] + (double) g->coeff * g->dir[k]));
+        }
+    }
+
+    ggml_backend_tensor_set(t, g->buf.data(), 0, ggml_nbytes(t));
+    return true;
 }
 
 static std::string json_escape(const std::string & s) {
@@ -65,11 +133,13 @@ static void usage(const char * exe) {
         "  -n N     tokens to generate per prompt (default 120)\n"
         "  -ngl N   layers to offload to the GPU (default 0)\n"
         "  -c N     context size (default 1024)\n"
+        "  --mode M add (default) or geodesic; geodesic preserves the residual norm\n"
         "Generation is greedy, so a rung is fully determined by its coefficient.\n", exe);
 }
 
 int main(int argc, char ** argv) {
     std::string model_path, prompts_path, vector_path, out_path, coeffs_arg;
+    std::string mode = "add";
     int layer = -1, n_predict = 120, n_gpu_layers = 0, n_ctx = 1024;
 
     for (int i = 1; i < argc; i++) {
@@ -83,11 +153,16 @@ int main(int argc, char ** argv) {
         else if (a == "-n"       && i + 1 < argc) n_predict    = atoi(argv[++i]);
         else if (a == "-ngl"     && i + 1 < argc) n_gpu_layers = atoi(argv[++i]);
         else if (a == "-c"       && i + 1 < argc) n_ctx        = atoi(argv[++i]);
+        else if (a == "--mode"   && i + 1 < argc) mode         = argv[++i];
         else { usage(argv[0]); return 1; }
     }
     if (model_path.empty() || prompts_path.empty() || vector_path.empty() ||
         out_path.empty() || coeffs_arg.empty() || layer < 1) {
         usage(argv[0]);
+        return 1;
+    }
+    if (mode != "add" && mode != "geodesic") {
+        fprintf(stderr, "error: --mode must be add or geodesic\n");
         return 1;
     }
 
@@ -127,10 +202,19 @@ int main(int argc, char ** argv) {
         return 1;
     }
 
+    geo_state geo;
+    geo.layer  = layer;
+    geo.n_embd = n_embd;
+    geo.dir    = direction;
+
     llama_context_params cparams = llama_context_default_params();
     cparams.n_ctx    = n_ctx;
     cparams.n_batch  = n_ctx;
     cparams.n_ubatch = n_ctx;
+    if (mode == "geodesic") {
+        cparams.cb_eval           = cb_geodesic;
+        cparams.cb_eval_user_data = &geo;
+    }
     llama_context * ctx = llama_init_from_model(model, cparams);
     if (!ctx) { fprintf(stderr, "error: failed to create context\n"); return 1; }
 
@@ -145,12 +229,17 @@ int main(int argc, char ** argv) {
     std::vector<llama_token> tokens(n_ctx);
 
     for (float coeff : coeffs) {
-        for (int k = 0; k < n_embd; k++) {
-            cvec_buf[(size_t) n_embd * (layer - 1) + k] = coeff * direction[k];
-        }
-        if (llama_set_adapter_cvec(ctx, cvec_buf.data(), cvec_buf.size(), n_embd, layer, layer)) {
-            fprintf(stderr, "error: failed to apply the control vector\n");
-            return 1;
+        if (mode == "geodesic") {
+            geo.coeff  = coeff;
+            geo.active = coeff != 0.0f;
+        } else {
+            for (int k = 0; k < n_embd; k++) {
+                cvec_buf[(size_t) n_embd * (layer - 1) + k] = coeff * direction[k];
+            }
+            if (llama_set_adapter_cvec(ctx, cvec_buf.data(), cvec_buf.size(), n_embd, layer, layer)) {
+                fprintf(stderr, "error: failed to apply the control vector\n");
+                return 1;
+            }
         }
 
         for (size_t p = 0; p < prompts.size(); p++) {
@@ -179,13 +268,15 @@ int main(int argc, char ** argv) {
             }
 
             out << "{\"coeff\":" << coeff
+                << ",\"mode\":\"" << mode << "\""
                 << ",\"layer\":" << layer
                 << ",\"prompt_idx\":" << p
                 << ",\"prompt\":\"" << json_escape(prompts[p]) << "\""
                 << ",\"completion\":\"" << json_escape(completion) << "\"}\n";
             out.flush();
 
-            fprintf(stderr, "\rcoeff %+g  prompt %zu/%zu   ", coeff, p + 1, prompts.size());
+            fprintf(stderr, "\r%s coeff %+g  prompt %zu/%zu   ",
+                    mode.c_str(), coeff, p + 1, prompts.size());
             fflush(stderr);
         }
     }
