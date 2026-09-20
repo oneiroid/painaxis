@@ -6,8 +6,9 @@ and there is no reason to push a model along the pain axis to find that out.
 --include-positive adds small positive rungs for anyone who wants the full
 ladder.
 
-Two controls run at the same negative coefficients, so a change at coeff -2 can
-be told apart from what any perturbation of that size would do:
+The direction under test is labelled "pain" in the output, whichever vector is
+selected. Two controls run at the same negative coefficients, so a change at
+coeff -2 can be told apart from what any perturbation of that size would do:
   shuffled  the pain vector's components permuted -- same norm, same marginal
             distribution of component sizes, no direction
   random    an isotropic gaussian direction scaled to the pain vector's norm
@@ -58,8 +59,11 @@ def write_bin(path, v):
 
 
 def main():
+    manifest = json.loads((CV_DIR / "manifest.json").read_text())
+
     ap = argparse.ArgumentParser()
-    ap.add_argument("--vector", default="s2", choices=["s1", "s2"])
+    ap.add_argument("--vector", default="s2", choices=sorted(manifest["vectors"]),
+                    help="a vector written by 03 (or 06 for the bipolar axis)")
     ap.add_argument("--n-prompts", type=int, default=20,
                     help="how many of the 50 neutral prompts to use")
     ap.add_argument("--max-tokens", type=int, default=80)
@@ -68,7 +72,6 @@ def main():
     ap.add_argument("--no-controls", action="store_true")
     args = ap.parse_args()
 
-    manifest = json.loads((CV_DIR / "manifest.json").read_text())
     spec = manifest["vectors"][args.vector]
     layer = spec["layer"]
 
@@ -117,7 +120,7 @@ def main():
             "-ngl", str(N_GPU_LAYERS), "-c", "1024",
         ], check=True)
 
-    (OUT / "run.json").write_text(json.dumps({
+    (OUT / f"run_{args.vector}.json").write_text(json.dumps({
         "model": MODEL_NAME, "gguf": str(MODEL_GGUF), "vector": args.vector,
         "layer": layer, "coeffs": coeffs, "n_prompts": len(prompts),
         "max_tokens": args.max_tokens, "seed": SEED,

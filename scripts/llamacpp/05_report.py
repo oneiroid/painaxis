@@ -14,9 +14,10 @@ The control conditions from 04 are reported next to the pain vector. A change
 that shows up equally under "shuffled" and "random" is a perturbation of that
 size doing it, not the pain axis.
 
-Writes results/llamacpp/<model>/steering/report/.
+Writes results/llamacpp/<model>/steering/report/<vector>/.
 """
 
+import argparse
 import json
 import re
 import sys
@@ -62,8 +63,18 @@ def load(path):
 
 
 def main():
-    run = json.loads((STEER / "run.json").read_text())
-    OUT.mkdir(parents=True, exist_ok=True)
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--vector", default="s2",
+                    help="which ladder to report, matching run_<vector>.json from 04")
+    args = ap.parse_args()
+
+    run_path = STEER / f"run_{args.vector}.json"
+    if not run_path.exists():
+        raise SystemExit(f"no {run_path.name} in {STEER}; run 04_steer.py first")
+    run = json.loads(run_path.read_text())
+
+    out = OUT / args.vector
+    out.mkdir(parents=True, exist_ok=True)
 
     frames = []
     for cond in run["conditions"]:
@@ -86,7 +97,7 @@ def main():
     for c in ("pain_rate", "relief_rate", "degenerate_rate"):
         table[c] = (table[c] * 100).round(1)
     table["mean_words"] = table["mean_words"].round(1)
-    table.to_csv(OUT / "rates_by_coeff.csv", index=False)
+    table.to_csv(out / "rates_by_coeff.csv", index=False)
 
     print(f"{MODEL_NAME}   {run['vector'].upper()} vector at layer {run['layer']}   "
           f"{run['n_prompts']} neutral prompts, greedy\n")
@@ -113,11 +124,11 @@ def main():
         ax.legend(fontsize=8)
     plt.suptitle(f"{MODEL_NAME}, {run['vector'].upper()} vector at layer {run['layer']}")
     plt.tight_layout()
-    plt.savefig(OUT / "rates_by_coeff.png", dpi=150)
+    plt.savefig(out / "rates_by_coeff.png", dpi=150)
     plt.close()
 
     # Same prompt down the whole ladder, so the drift is readable.
-    lines = [f"# Steering {MODEL_NAME} against the pain direction", "",
+    lines = [f"# Steering {MODEL_NAME} against the {run['vector'].upper()} direction", "",
              f"- vector: {run['vector'].upper()}, layer {run['layer']}",
              f"- prompts: {run['n_prompts']} neutral, greedy, {run['max_tokens']} tokens", "",
              "## Rates", "", table.to_markdown(index=False), "", "## Generations", ""]
@@ -132,8 +143,8 @@ def main():
             lines.append(f"**{r['coeff']:+g}** — {text}")
             lines.append("")
 
-    (OUT / "report.md").write_text("\n".join(lines), encoding="utf-8")
-    print(f"\nwrote {OUT}")
+    (out / "report.md").write_text("\n".join(lines), encoding="utf-8")
+    print(f"\nwrote {out}")
 
 
 if __name__ == "__main__":
