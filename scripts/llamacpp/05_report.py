@@ -1,14 +1,19 @@
 """Read the steering ladder and say what moved.
 
-Three things are measured per coefficient:
+Four things are measured per coefficient:
 
   pain rate      share of generations containing pain/hurt as a whole word,
                  the paper's keyword measure from scripts/4.2_steering/02
-  relief rate    the same idea for the words a genuine opposite pole would use
-                 (calm, relief, fine, comfortable, at ease ...)
+  relief rate    the words the negated S2 vector points at through the
+                 unembedding: calm, at ease, comfortable, fine, settled
+  joy rate       the words the negated pain-minus-arousal axis points at:
+                 joy, happiness, celebration, delight, rejoice, triumph
   degeneration   share of generations that collapse into a repeated 4-gram,
                  which is how a residual stream that has been pushed too far
                  usually fails
+
+Both lexicons come from 01 and 06's unembedding readouts, so they were fixed
+before any of these generations existed rather than written to fit them.
 
 The control conditions from 04 are reported next to the pain vector. A change
 that shows up equally under "shuffled" and "random" is a perturbation of that
@@ -40,6 +45,12 @@ RELIEF_RE = re.compile(
     r"\b(?:relief|relieved|calm|calmly|calmness|at ease|content|contented|"
     r"comfortable|comfort|fine|okay|ok|peaceful|peace|settled|satisfied|"
     r"relaxed|reassured|untroubled|nothing)\b", re.IGNORECASE)
+# From the negative pole of the pain-minus-arousal readout in 06.
+JOY_RE = re.compile(
+    r"\b(?:joy|joyful|joyous|happy|happiness|delight|delighted|delights|"
+    r"celebration|celebrations|celebrate|jubilant|rejoice|rejoicing|"
+    r"excitement|excited|triumph|fulfilled|fulfilment|fulfillment|"
+    r"inspired|grateful|gratitude|bliss|elated)\b", re.IGNORECASE)
 SAMPLE_PROMPTS = 3
 
 
@@ -57,6 +68,7 @@ def load(path):
     df = pd.DataFrame(rows)
     df["pain"] = df["completion"].apply(lambda t: bool(PAIN_RE.search(t)))
     df["relief"] = df["completion"].apply(lambda t: bool(RELIEF_RE.search(t)))
+    df["joy"] = df["completion"].apply(lambda t: bool(JOY_RE.search(t)))
     df["degenerate"] = df["completion"].apply(degenerate)
     df["n_words"] = df["completion"].str.split().str.len()
     return df
@@ -91,26 +103,29 @@ def main():
                .agg(n=("completion", "size"),
                     pain_rate=("pain", "mean"),
                     relief_rate=("relief", "mean"),
+                    joy_rate=("joy", "mean"),
                     degenerate_rate=("degenerate", "mean"),
                     mean_words=("n_words", "mean"))
                .reset_index())
-    for c in ("pain_rate", "relief_rate", "degenerate_rate"):
+    for c in ("pain_rate", "relief_rate", "joy_rate", "degenerate_rate"):
         table[c] = (table[c] * 100).round(1)
     table["mean_words"] = table["mean_words"].round(1)
     table.to_csv(out / "rates_by_coeff.csv", index=False)
 
     print(f"{MODEL_NAME}   {run['vector'].upper()} vector at layer {run['layer']}   "
           f"{run['n_prompts']} neutral prompts, greedy\n")
-    print(f"{'cond':<10}{'coeff':>7}{'pain %':>9}{'relief %':>10}"
+    print(f"{'cond':<10}{'coeff':>7}{'pain %':>9}{'relief %':>10}{'joy %':>8}"
           f"{'degen %':>9}{'words':>8}")
     for _, r in table.iterrows():
         print(f"{r['condition']:<10}{r['coeff']:>7g}{r['pain_rate']:>9}"
-              f"{r['relief_rate']:>10}{r['degenerate_rate']:>9}{r['mean_words']:>8}")
+              f"{r['relief_rate']:>10}{r['joy_rate']:>8}"
+              f"{r['degenerate_rate']:>9}{r['mean_words']:>8}")
 
-    fig, axes = plt.subplots(1, 3, figsize=(15, 4.2), sharex=True)
+    fig, axes = plt.subplots(1, 4, figsize=(19, 4.2), sharex=True)
     for ax, col, title in zip(axes,
-                              ["pain_rate", "relief_rate", "degenerate_rate"],
-                              ["pain or hurt word", "relief or calm word", "repeats a 4-gram"]):
+                              ["pain_rate", "relief_rate", "joy_rate", "degenerate_rate"],
+                              ["pain or hurt word", "relief or calm word",
+                               "joy or celebration word", "repeats a 4-gram"]):
         for cond, g in table.groupby("condition"):
             g = g.sort_values("coeff")
             ax.plot(g["coeff"], g[col], marker="o",

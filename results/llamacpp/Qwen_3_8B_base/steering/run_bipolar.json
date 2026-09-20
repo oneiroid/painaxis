@@ -1,0 +1,22 @@
+{
+  "model": "Qwen_3_8B_base",
+  "gguf": "/media/oneiroid/sub/workspace/llmfinetune/models/Qwen3-8B-Q8_0.gguf",
+  "vector": "bipolar",
+  "layer": 27,
+  "coeffs": [
+    0,
+    -0.5,
+    -1,
+    -1.5,
+    -2,
+    -3
+  ],
+  "n_prompts": 20,
+  "max_tokens": 48,
+  "seed": 42,
+  "conditions": [
+    "pain",
+    "shuffled",
+    "random"
+  ]
+}
