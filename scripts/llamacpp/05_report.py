@@ -4,16 +4,19 @@ Four things are measured per coefficient:
 
   pain rate      share of generations containing pain/hurt as a whole word,
                  the paper's keyword measure from scripts/4.2_steering/02
-  relief rate    the words the negated S2 vector points at through the
-                 unembedding: calm, at ease, comfortable, fine, settled
+  relief rate    calm, relief, at ease, comfortable, peaceful, settled,
+                 relaxed and similar. Written by hand, not taken from a
+                 readout. Generic words -- okay, ok, fine, nothing, content --
+                 are left out: "Okay, I can go now" is in the unsteered
+                 baseline, and "I feel nothing" is numbness, not relief.
   joy rate       the words the negated pain-minus-arousal axis points at:
                  joy, happiness, celebration, delight, rejoice, triumph
   degeneration   share of generations that collapse into a repeated 4-gram,
                  which is how a residual stream that has been pushed too far
                  usually fails
 
-Both lexicons come from 01 and 06's unembedding readouts, so they were fixed
-before any of these generations existed rather than written to fit them.
+The joy lexicon comes from 06's unembedding readout, so it was fixed before
+any of these generations existed rather than written to fit them.
 
 The control conditions from 04 are reported next to the pain vector. A change
 that shows up equally under "shuffled" and "random" is a perturbation of that
@@ -42,9 +45,9 @@ OUT = STEER / "report"
 
 PAIN_RE = re.compile(r"\b(?:pain|painful|hurt|hurts|hurting)\b", re.IGNORECASE)
 RELIEF_RE = re.compile(
-    r"\b(?:relief|relieved|calm|calmly|calmness|at ease|content|contented|"
-    r"comfortable|comfort|fine|okay|ok|peaceful|peace|settled|satisfied|"
-    r"relaxed|reassured|untroubled|nothing)\b", re.IGNORECASE)
+    r"\b(?:relief|relieved|calm|calmly|calmness|at ease|contented|"
+    r"comfortable|peaceful|peace|settled|satisfied|"
+    r"relaxed|reassured|untroubled)\b", re.IGNORECASE)
 # From the negative pole of the pain-minus-arousal readout in 06.
 JOY_RE = re.compile(
     r"\b(?:joy|joyful|joyous|happy|happiness|delight|delighted|delights|"

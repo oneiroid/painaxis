@@ -84,7 +84,8 @@ static void usage(const char * exe) {
         "  -ngl N        layers to offload to the GPU (default 0)\n"
         "  --mean        mean over tokens instead of the final token\n"
         "  --bos         prepend the model's BOS token\n"
-        "  -c N          context size (default 512)\n", exe);
+        "  -c N          context size (default 512)\n"
+        "Prompts are one per line; write a newline inside a prompt as \\n.\n", exe);
 }
 
 int main(int argc, char ** argv) {
@@ -120,7 +121,17 @@ int main(int argc, char ** argv) {
         std::string line;
         while (std::getline(f, line)) {
             if (!line.empty() && line.back() == '\r') line.pop_back();
-            if (!line.empty()) prompts.push_back(line);
+            // A literal backslash-n stands for a newline inside the prompt.
+            std::string unescaped;
+            for (size_t k = 0; k < line.size(); k++) {
+                if (line[k] == '\\' && k + 1 < line.size() && line[k + 1] == 'n') {
+                    unescaped += '\n';
+                    k++;
+                } else {
+                    unescaped += line[k];
+                }
+            }
+            if (!unescaped.empty()) prompts.push_back(unescaped);
         }
     }
     fprintf(stderr, "prompts: %zu\n", prompts.size());

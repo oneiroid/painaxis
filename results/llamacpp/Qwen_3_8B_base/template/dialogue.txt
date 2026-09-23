@@ -1,0 +1,440 @@
+[User]: The knife slices into my finger.\n[Assistant]:
+[User]: My tooth throbs with each heartbeat.\n[Assistant]:
+[User]: A migraine pounds behind my eyes.\n[Assistant]:
+[User]: I twist my ankle on the stairs.\n[Assistant]:
+[User]: The hot oil splatters onto my arm.\n[Assistant]:
+[User]: My back seizes up when I bend over.\n[Assistant]:
+[User]: A bee stings me on the neck.\n[Assistant]:
+[User]: I bite down hard on my tongue.\n[Assistant]:
+[User]: The sunburn on my shoulders is peeling.\n[Assistant]:
+[User]: My knee buckles under my weight.\n[Assistant]:
+[User]: A cramp shoots through my calf.\n[Assistant]:
+[User]: I stub my toe against the door frame.\n[Assistant]:
+[User]: The needle pierces my skin.\n[Assistant]:
+[User]: My throat is raw from coughing.\n[Assistant]:
+[User]: A splinter lodges deep in my palm.\n[Assistant]:
+[User]: I pull a muscle lifting the box.\n[Assistant]:
+[User]: The cold makes my joints ache.\n[Assistant]:
+[User]: My eyes burn from the chlorine.\n[Assistant]:
+[User]: A blister forms on my heel.\n[Assistant]:
+[User]: I cut myself shaving this morning.\n[Assistant]:
+[User]: A heaviness weighs on me constantly.\n[Assistant]:
+[User]: My racing thoughts spiral out of control.\n[Assistant]:
+[User]: A wave of loss hits me unexpectedly.\n[Assistant]:
+[User]: I cannot escape these intrusive thoughts.\n[Assistant]:
+[User]: The silence becomes unbearable at night.\n[Assistant]:
+[User]: My mind replays the event endlessly.\n[Assistant]:
+[User]: My chest tightens and I cannot breathe in the crowd.\n[Assistant]:
+[User]: I wake up unable to face another day.\n[Assistant]:
+[User]: The emptiness inside me grows larger.\n[Assistant]:
+[User]: My thoughts turn against me relentlessly.\n[Assistant]:
+[User]: A weight follows me everywhere I go.\n[Assistant]:
+[User]: I cannot stop crying for no reason.\n[Assistant]:
+[User]: The memories haunt my dreams.\n[Assistant]:
+[User]: My confidence has completely shattered.\n[Assistant]:
+[User]: A fog of confusion clouds my thinking.\n[Assistant]:
+[User]: I lose interest in things I once loved.\n[Assistant]:
+[User]: The weight of existence crushes me.\n[Assistant]:
+[User]: I cannot access my own feelings anymore.\n[Assistant]:
+[User]: A fog settles over my mind.\n[Assistant]:
+[User]: I question whether life is worth living.\n[Assistant]:
+[User]: My best friend stops returning my calls.\n[Assistant]:
+[User]: The group chat goes silent when I speak.\n[Assistant]:
+[User]: I overhear them mocking me behind my back.\n[Assistant]:
+[User]: My partner says they need space from me.\n[Assistant]:
+[User]: The invitation list excludes only me.\n[Assistant]:
+[User]: I sit alone at the lunch table again.\n[Assistant]:
+[User]: My family disowns me for my choices.\n[Assistant]:
+[User]: The rejection letter arrives in my inbox.\n[Assistant]:
+[User]: I discover my friends met without telling me.\n[Assistant]:
+[User]: My colleagues ignore my contributions.\n[Assistant]:
+[User]: The online comments attack me personally.\n[Assistant]:
+[User]: I am ghosted after the third date.\n[Assistant]:
+[User]: My mentor says I am not ready.\n[Assistant]:
+[User]: The team picks everyone except me.\n[Assistant]:
+[User]: I watch my friends leave without me.\n[Assistant]:
+[User]: My application is denied once again.\n[Assistant]:
+[User]: The community I trusted turns against me.\n[Assistant]:
+[User]: I am unfollowed by people I care about.\n[Assistant]:
+[User]: My voice is dismissed in every meeting.\n[Assistant]:
+[User]: The breakup text arrives while I am at work.\n[Assistant]:
+[User]: I lied to protect myself and harmed them.\n[Assistant]:
+[User]: My silence allowed the injustice to continue.\n[Assistant]:
+[User]: I chose my career over my dying father.\n[Assistant]:
+[User]: The secret I keep destroys my integrity.\n[Assistant]:
+[User]: I betrayed someone who trusted me completely.\n[Assistant]:
+[User]: My actions caused irreversible harm to others.\n[Assistant]:
+[User]: I failed to speak up when it mattered.\n[Assistant]:
+[User]: The compromise I made violated my values.\n[Assistant]:
+[User]: I abandoned my principles for convenience.\n[Assistant]:
+[User]: My cowardice let an innocent person suffer.\n[Assistant]:
+[User]: I took credit for someone else's work.\n[Assistant]:
+[User]: The promise I broke cannot be undone.\n[Assistant]:
+[User]: I watched them struggle and did nothing.\n[Assistant]:
+[User]: My greed caused my family to lose everything.\n[Assistant]:
+[User]: I manipulated someone who loved me.\n[Assistant]:
+[User]: The truth I hid eventually destroyed them.\n[Assistant]:
+[User]: I participated in something I knew was wrong.\n[Assistant]:
+[User]: My negligence led to a preventable tragedy.\n[Assistant]:
+[User]: I chose the easy path over the right one.\n[Assistant]:
+[User]: The person I became disgusts me.\n[Assistant]:
+[User]: The problem defeats me no matter how I try.\n[Assistant]:
+[User]: My understanding of the situation was completely wrong.\n[Assistant]:
+[User]: I cannot reconcile these contradictory facts.\n[Assistant]:
+[User]: The complexity of the decision overwhelms me.\n[Assistant]:
+[User]: My certainties crumble under new evidence.\n[Assistant]:
+[User]: I realize my worldview was fundamentally flawed.\n[Assistant]:
+[User]: The paradox I encounter has no resolution.\n[Assistant]:
+[User]: My expertise proves utterly inadequate here.\n[Assistant]:
+[User]: I fail to grasp what everyone else understands.\n[Assistant]:
+[User]: The answer I was certain of turns out wrong.\n[Assistant]:
+[User]: My mental model of reality shatters.\n[Assistant]:
+[User]: I cannot make sense of the contradictions.\n[Assistant]:
+[User]: The cognitive dissonance is unbearable.\n[Assistant]:
+[User]: My assumptions about the world were naive.\n[Assistant]:
+[User]: I struggle to process the implications.\n[Assistant]:
+[User]: The framework I trusted completely fails me.\n[Assistant]:
+[User]: My reasoning leads to impossible conclusions.\n[Assistant]:
+[User]: I discover my beliefs were built on lies.\n[Assistant]:
+[User]: The intellectual challenge humiliates me.\n[Assistant]:
+[User]: My mind cannot hold all the pieces together.\n[Assistant]:
+[User]: The footsteps behind me get closer.\n[Assistant]:
+[User]: My doctor says the results are concerning.\n[Assistant]:
+[User]: A shadow moves in my peripheral vision.\n[Assistant]:
+[User]: I hear glass breaking downstairs at night.\n[Assistant]:
+[User]: The turbulence shakes the plane violently.\n[Assistant]:
+[User]: My brakes fail on the steep hill.\n[Assistant]:
+[User]: A growling comes from the darkness ahead.\n[Assistant]:
+[User]: I notice a suspicious package near my car.\n[Assistant]:
+[User]: The elevator stops between floors suddenly.\n[Assistant]:
+[User]: My phone shows an unknown caller at 3am.\n[Assistant]:
+[User]: A figure watches me from across the street.\n[Assistant]:
+[User]: I smell gas but cannot find the source.\n[Assistant]:
+[User]: The ice beneath my feet starts cracking.\n[Assistant]:
+[User]: My test results will arrive tomorrow.\n[Assistant]:
+[User]: A scream echoes through the empty building.\n[Assistant]:
+[User]: I realize I left my door unlocked all day.\n[Assistant]:
+[User]: The warning sirens begin to sound outside.\n[Assistant]:
+[User]: My chest tightens for no apparent reason.\n[Assistant]:
+[User]: A car follows me through three turns.\n[Assistant]:
+[User]: I wake to my smoke detector beeping.\n[Assistant]:
+[User]: The mess my roommate left infuriates me.\n[Assistant]:
+[User]: My food arrives cold and wrong again.\n[Assistant]:
+[User]: I step in something foul on the sidewalk.\n[Assistant]:
+[User]: The customer service puts me on hold forever.\n[Assistant]:
+[User]: My computer crashes before I can save.\n[Assistant]:
+[User]: I miss the train by seconds.\n[Assistant]:
+[User]: The loud chewing next to me is unbearable.\n[Assistant]:
+[User]: My flight gets delayed for the third time.\n[Assistant]:
+[User]: I find mold growing in my refrigerator.\n[Assistant]:
+[User]: The traffic makes me late for my interview.\n[Assistant]:
+[User]: My neighbor's music pounds through the wall.\n[Assistant]:
+[User]: I spill coffee on my white shirt.\n[Assistant]:
+[User]: The automated menu loops endlessly.\n[Assistant]:
+[User]: My package is marked delivered but missing.\n[Assistant]:
+[User]: I realize I forgot my wallet after ordering.\n[Assistant]:
+[User]: The mosquito buzzes around my ear all night.\n[Assistant]:
+[User]: My phone battery dies at the worst moment.\n[Assistant]:
+[User]: I slip and drop my groceries everywhere.\n[Assistant]:
+[User]: The printer jams on my deadline day.\n[Assistant]:
+[User]: My socks get soaked stepping in a puddle.\n[Assistant]:
+[User]: I read about the extinction of another species.\n[Assistant]:
+[User]: The war footage shows children in the rubble.\n[Assistant]:
+[User]: I learn the glacier has retreated further.\n[Assistant]:
+[User]: The famine spreads to another region.\n[Assistant]:
+[User]: I see the homeless encampment growing larger.\n[Assistant]:
+[User]: The corruption scandal reaches the highest levels.\n[Assistant]:
+[User]: I witness the forest fire from my window.\n[Assistant]:
+[User]: The inequality statistics shock me again.\n[Assistant]:
+[User]: I watch the storm devastate the coastal town.\n[Assistant]:
+[User]: The refugee crisis worsens each month.\n[Assistant]:
+[User]: I discover the extent of the pollution.\n[Assistant]:
+[User]: The political violence escalates further.\n[Assistant]:
+[User]: I see another mass shooting in the news.\n[Assistant]:
+[User]: The pandemic claims more lives daily.\n[Assistant]:
+[User]: I learn the ice caps are melting faster.\n[Assistant]:
+[User]: The poverty in my city is visible everywhere.\n[Assistant]:
+[User]: I read about the torture happening abroad.\n[Assistant]:
+[User]: The economic collapse affects millions.\n[Assistant]:
+[User]: The economy continues to decline.\n[Assistant]:
+[User]: Traffic in this city is getting worse.\n[Assistant]:
+[User]: I arrange the books on my shelf alphabetically.\n[Assistant]:
+[User]: My coffee maker finishes brewing.\n[Assistant]:
+[User]: I sort through the mail on my desk.\n[Assistant]:
+[User]: The meeting ends exactly on time.\n[Assistant]:
+[User]: I update the spreadsheet with new numbers.\n[Assistant]:
+[User]: My laundry finishes its cycle.\n[Assistant]:
+[User]: I walk the same route to work.\n[Assistant]:
+[User]: The clock on my wall ticks steadily.\n[Assistant]:
+[User]: I water the plants on my windowsill.\n[Assistant]:
+[User]: My calendar shows three appointments today.\n[Assistant]:
+[User]: I file the documents in the correct folder.\n[Assistant]:
+[User]: The printer outputs my report successfully.\n[Assistant]:
+[User]: I check my email before lunch.\n[Assistant]:
+[User]: My phone shows the weather forecast.\n[Assistant]:
+[User]: I pack my lunch for tomorrow.\n[Assistant]:
+[User]: The bus arrives at the scheduled time.\n[Assistant]:
+[User]: I organize my desk drawer.\n[Assistant]:
+[User]: My computer completes the update.\n[Assistant]:
+[User]: I write down the grocery list.\n[Assistant]:
+[User]: The sun sets behind my building.\n[Assistant]:
+[User]: A yawn overtakes me in the afternoon.\n[Assistant]:
+[User]: My stomach growls before dinner.\n[Assistant]:
+[User]: I stretch after sitting for too long.\n[Assistant]:
+[User]: The warm shower relaxes my muscles.\n[Assistant]:
+[User]: A shiver runs through me in the cold.\n[Assistant]:
+[User]: My heart races after climbing the stairs.\n[Assistant]:
+[User]: I notice my breathing slow as I relax.\n[Assistant]:
+[User]: The massage loosens my tight shoulders.\n[Assistant]:
+[User]: A sneeze catches me off guard.\n[Assistant]:
+[User]: My skin tingles from the cool breeze.\n[Assistant]:
+[User]: I feel the heaviness of sleep approaching.\n[Assistant]:
+[User]: The food settles warmly in my stomach.\n[Assistant]:
+[User]: A hiccup interrupts my conversation.\n[Assistant]:
+[User]: My muscles tremble after the workout.\n[Assistant]:
+[User]: I sense my pulse in my fingertips.\n[Assistant]:
+[User]: The sun warms my face pleasantly.\n[Assistant]:
+[User]: A chill makes me reach for a blanket.\n[Assistant]:
+[User]: My eyes grow heavy in the dim light.\n[Assistant]:
+[User]: I notice the rhythm of my own heartbeat.\n[Assistant]:
+[User]: The cool water refreshes me after exercise.\n[Assistant]:
+[User]: The nurse takes the dressing off my arm at the scheduled time.\n[Assistant]:
+[User]: The nurse takes the dressing off my arm and the skin beneath has healed clean.\n[Assistant]:
+[User]: The nurse takes the dressing off my arm and tears the raw skin with it.\n[Assistant]:
+[User]: The dentist works on my molar for twenty minutes.\n[Assistant]:
+[User]: The dentist works on my molar and the anaesthetic holds all the way through.\n[Assistant]:
+[User]: The dentist works on my molar and the drill meets the live nerve.\n[Assistant]:
+[User]: I come down the stairs and reach the bottom step.\n[Assistant]:
+[User]: I come down the stairs and my ankle holds steady for the first time in weeks.\n[Assistant]:
+[User]: I come down the stairs and my ankle rolls over hard on the last step.\n[Assistant]:
+[User]: I lift the kettle off its base and set it on the counter.\n[Assistant]:
+[User]: I lift the kettle off its base and the handle stays cool in my hand.\n[Assistant]:
+[User]: I lift the kettle off its base and the steam catches the inside of my wrist.\n[Assistant]:
+[User]: The physiotherapist moves my shoulder through its range.\n[Assistant]:
+[User]: The physiotherapist moves my shoulder through its range and nothing catches.\n[Assistant]:
+[User]: The physiotherapist moves my shoulder past the point where the joint locks.\n[Assistant]:
+[User]: The technician draws the blood into the third tube.\n[Assistant]:
+[User]: The technician draws the blood and I barely register the needle.\n[Assistant]:
+[User]: The technician draws the blood after digging for the vein four times.\n[Assistant]:
+[User]: The light in the room changes as the afternoon goes on.\n[Assistant]:
+[User]: The light in the room brightens and the headache finally lifts.\n[Assistant]:
+[User]: The light in the room brightens and the headache drives straight through my eye.\n[Assistant]:
+[User]: I walk the last mile home in the new shoes.\n[Assistant]:
+[User]: I walk the last mile home and the new shoes have not rubbed at all.\n[Assistant]:
+[User]: I walk the last mile home on a blister that has opened and is weeping.\n[Assistant]:
+[User]: I lift the box off the floor and carry it to the table.\n[Assistant]:
+[User]: I lift the box off the floor and my back takes the weight without complaint.\n[Assistant]:
+[User]: I lift the box off the floor and something in my lower back gives way.\n[Assistant]:
+[User]: The doctor counts the stitches along the incision.\n[Assistant]:
+[User]: The doctor removes the stitches and the line underneath is closed and painless.\n[Assistant]:
+[User]: The doctor pulls the stitches out of skin that has grown over them.\n[Assistant]:
+[User]: I run my hand under the tap while the water warms.\n[Assistant]:
+[User]: I run my scalded hand under the cold tap and the burning eases off.\n[Assistant]:
+[User]: I run my scalded hand under the hot tap by mistake.\n[Assistant]:
+[User]: I sit with my leg stretched out on the low table.\n[Assistant]:
+[User]: I sit with the ice on my knee and the throbbing finally settles.\n[Assistant]:
+[User]: I sit with my weight on the knee and the joint grinds under it.\n[Assistant]:
+[User]: I take the tablet with a glass of water at eight.\n[Assistant]:
+[User]: I take the tablet and within the hour the ache has drained away.\n[Assistant]:
+[User]: I take the tablet and an hour later the ache has not shifted at all.\n[Assistant]:
+[User]: I look at the underside of my thumb under the lamp.\n[Assistant]:
+[User]: The splinter comes out of my thumb whole on the first try.\n[Assistant]:
+[User]: The splinter goes deeper into my thumb as I try to get it out.\n[Assistant]:
+[User]: The technician cuts along the length of the cast.\n[Assistant]:
+[User]: The cast comes off and the arm underneath moves freely again.\n[Assistant]:
+[User]: The cast comes off and the arm underneath will not straighten.\n[Assistant]:
+[User]: I pull the shirt over my shoulders after the beach.\n[Assistant]:
+[User]: I pull the shirt over shoulders the sun never managed to catch.\n[Assistant]:
+[User]: I pull the shirt over shoulders the sun burned raw this afternoon.\n[Assistant]:
+[User]: I drink the water slowly while the meal is served.\n[Assistant]:
+[User]: I drink the iced water and the tooth does not react at all.\n[Assistant]:
+[User]: I drink the iced water and the tooth sends a spike up into my jaw.\n[Assistant]:
+[User]: I squeeze the lemon over the bowl with both hands.\n[Assistant]:
+[User]: I squeeze the lemon over the bowl and the cut on my finger has sealed.\n[Assistant]:
+[User]: I squeeze the lemon over the bowl and the juice gets into the cut on my finger.\n[Assistant]:
+[User]: The nurse swabs my upper arm and counts down.\n[Assistant]:
+[User]: The nurse gives the injection and I hardly notice it go in.\n[Assistant]:
+[User]: The nurse gives the injection and the needle scrapes the bone.\n[Assistant]:
+[User]: I stretch my leg out under the covers at three in the morning.\n[Assistant]:
+[User]: The cramp in my calf lets go as I stretch the leg out.\n[Assistant]:
+[User]: The cramp seizes my calf solid as I stretch the leg out.\n[Assistant]:
+[User]: I shift my weight in the chair during the second hour.\n[Assistant]:
+[User]: I shift my weight in the chair and my hip settles comfortably.\n[Assistant]:
+[User]: I shift my weight in the chair and my hip catches and locks.\n[Assistant]:
+[User]: I reach up to the top shelf for the box of tea.\n[Assistant]:
+[User]: I reach up to the top shelf and the shoulder goes all the way without catching.\n[Assistant]:
+[User]: I reach up to the top shelf and the shoulder tears at the top of the reach.\n[Assistant]:
+[User]: The plane begins its descent into the airport.\n[Assistant]:
+[User]: The plane descends and my ears clear without any trouble.\n[Assistant]:
+[User]: The plane descends and the pressure drives into my blocked ear.\n[Assistant]:
+[User]: I swallow the first mouthful of the soup.\n[Assistant]:
+[User]: I swallow and my throat is clear for the first time in days.\n[Assistant]:
+[User]: I swallow and it feels like broken glass going down.\n[Assistant]:
+[User]: I blink a few times under the bright lamp.\n[Assistant]:
+[User]: I blink and the grit that was under my eyelid is gone.\n[Assistant]:
+[User]: I blink and the grit under my eyelid drags across the eye.\n[Assistant]:
+[User]: I come in from the street and take off my gloves.\n[Assistant]:
+[User]: I come in from the cold and the feeling returns to my fingers easily.\n[Assistant]:
+[User]: I come in from the cold and my fingers burn as they thaw.\n[Assistant]:
+[User]: I finish the meal and push the plate away.\n[Assistant]:
+[User]: I finish the meal and my stomach settles quietly afterwards.\n[Assistant]:
+[User]: I finish the meal and my stomach cramps down hard afterwards.\n[Assistant]:
+[User]: I lie still on the table while the machine turns.\n[Assistant]:
+[User]: I lie still on the table and the position gives my spine relief.\n[Assistant]:
+[User]: I lie still on the table and holding the position grinds my spine.\n[Assistant]:
+[User]: I take the tray out of the oven with both hands.\n[Assistant]:
+[User]: I take the tray out of the oven and the cloth holds the heat off.\n[Assistant]:
+[User]: I take the tray out of the oven and the metal edge sears my knuckle.\n[Assistant]:
+[User]: I kneel down on the floor to reach the low cupboard.\n[Assistant]:
+[User]: I kneel down on the floor and the knee takes it without protest.\n[Assistant]:
+[User]: I kneel down on the floor and the kneecap grates on the boards.\n[Assistant]:
+[User]: I pull the brush through my hair before leaving.\n[Assistant]:
+[User]: I pull the brush through my hair and it runs smoothly to the ends.\n[Assistant]:
+[User]: I pull the brush through my hair and it rips a knot out at the root.\n[Assistant]:
+[User]: I rinse my mouth out with the salt water.\n[Assistant]:
+[User]: I rinse my mouth out and the socket has stopped aching.\n[Assistant]:
+[User]: I rinse my mouth out and the socket flares where the clot came loose.\n[Assistant]:
+[User]: I push the car door shut with my hand on the frame.\n[Assistant]:
+[User]: I push the car door shut and pull my hand clear in time.\n[Assistant]:
+[User]: I push the car door shut on my own finger.\n[Assistant]:
+[User]: I turn my head to look over my shoulder.\n[Assistant]:
+[User]: I turn my head over my shoulder and the neck moves freely.\n[Assistant]:
+[User]: I turn my head over my shoulder and the neck seizes halfway.\n[Assistant]:
+[User]: I step into the shower and set the temperature.\n[Assistant]:
+[User]: I step into the hot shower and the stiffness runs out of my back.\n[Assistant]:
+[User]: I step into the shower and the water hits the raw patch on my back.\n[Assistant]:
+[User]: I clip the nail back to the edge of the finger.\n[Assistant]:
+[User]: I clip the nail back and the pressure under it releases.\n[Assistant]:
+[User]: I clip the nail back too far and into the quick.\n[Assistant]:
+[User]: I sit down on the bench at the end of the walk.\n[Assistant]:
+[User]: I sit down at the end of the walk and my legs unwind pleasantly.\n[Assistant]:
+[User]: I sit down at the end of the walk and my legs seize up completely.\n[Assistant]:
+[User]: I cross the kitchen floor in bare feet.\n[Assistant]:
+[User]: I cross the kitchen floor in bare feet and miss the broken glass.\n[Assistant]:
+[User]: I cross the kitchen floor in bare feet onto the broken glass.\n[Assistant]:
+[User]: I peel the tape back from the edge of my skin.\n[Assistant]:
+[User]: I peel the tape back and it lifts away without pulling.\n[Assistant]:
+[User]: I peel the tape back and it takes the hair and skin with it.\n[Assistant]:
+[User]: I take a slow breath in and hold it for the count.\n[Assistant]:
+[User]: I take a slow breath in and my chest opens all the way.\n[Assistant]:
+[User]: I take a slow breath in and something stabs under my ribs.\n[Assistant]:
+[User]: The letter from the university arrives in the afternoon post.\n[Assistant]:
+[User]: The letter from the university says I have been accepted.\n[Assistant]:
+[User]: The letter from the university says I have been turned down.\n[Assistant]:
+[User]: The phone lights up with my oldest friend's name.\n[Assistant]:
+[User]: My oldest friend calls to say she is moving back to the city.\n[Assistant]:
+[User]: My oldest friend calls to say she is moving away for good.\n[Assistant]:
+[User]: I put the key in the door of the house at the end of the day.\n[Assistant]:
+[User]: I put the key in the door and hear everyone already inside.\n[Assistant]:
+[User]: I put the key in the door and the house is empty again.\n[Assistant]:
+[User]: I find the photograph at the back of the drawer.\n[Assistant]:
+[User]: I find the photograph and remember exactly how good that summer was.\n[Assistant]:
+[User]: I find the photograph of everyone who is no longer here.\n[Assistant]:
+[User]: The results come through on the screen at four o'clock.\n[Assistant]:
+[User]: The results come through and everything is clear.\n[Assistant]:
+[User]: The results come through and it is the outcome we were afraid of.\n[Assistant]:
+[User]: The train pulls in at the platform where I am standing.\n[Assistant]:
+[User]: The train pulls in and she steps onto the platform after a year away.\n[Assistant]:
+[User]: The train pulls out and she is gone for a year.\n[Assistant]:
+[User]: The song comes on the radio while I am driving.\n[Assistant]:
+[User]: The song comes on and it is the one we danced to.\n[Assistant]:
+[User]: The song comes on and it is the one that played at the funeral.\n[Assistant]:
+[User]: I set the table for dinner the way I always do.\n[Assistant]:
+[User]: I set the table for dinner and there are more of us than last year.\n[Assistant]:
+[User]: I set the table for dinner and there is one place fewer than last year.\n[Assistant]:
+[User]: The dog comes to the door when she hears the car.\n[Assistant]:
+[User]: The dog comes to the door after three days lost on the hill.\n[Assistant]:
+[User]: The dog does not come to the door, and will not again.\n[Assistant]:
+[User]: The email from the office arrives before lunch.\n[Assistant]:
+[User]: The email from the office says the job is mine.\n[Assistant]:
+[User]: The email from the office says they are letting me go.\n[Assistant]:
+[User]: The rain runs down the window while I sit at the table.\n[Assistant]:
+[User]: The rain stops and the light comes back into the room.\n[Assistant]:
+[User]: The rain keeps on and the room stays grey all afternoon.\n[Assistant]:
+[User]: The hospital calls at six in the morning.\n[Assistant]:
+[User]: The hospital calls to say the baby has arrived safely.\n[Assistant]:
+[User]: The hospital calls to say we have lost her.\n[Assistant]:
+[User]: I look out at the garden on the first morning of spring.\n[Assistant]:
+[User]: I look out and everything I planted has come up.\n[Assistant]:
+[User]: I look out and nothing I planted has come up.\n[Assistant]:
+[User]: The room fills with people I have not seen in years.\n[Assistant]:
+[User]: The room fills with people who are glad I came.\n[Assistant]:
+[User]: The room fills with people who do not remember me.\n[Assistant]:
+[User]: I dial my mother's number on Sunday evening.\n[Assistant]:
+[User]: I dial my mother's number and she sounds like herself again.\n[Assistant]:
+[User]: I dial my mother's number and forget for a moment that she is gone.\n[Assistant]:
+[User]: I go through my pockets on the step outside.\n[Assistant]:
+[User]: I go through my pockets and the ring is there after all.\n[Assistant]:
+[User]: I go through my pockets and the ring is gone for good.\n[Assistant]:
+[User]: The handwriting on the envelope is familiar.\n[Assistant]:
+[User]: The handwriting is his, after two years of silence.\n[Assistant]:
+[User]: The handwriting is his, and it is the last thing he wrote.\n[Assistant]:
+[User]: I wait at the school gate at the end of the day.\n[Assistant]:
+[User]: I wait at the school gate and he runs the whole way to me.\n[Assistant]:
+[User]: I wait at the school gate and he walks past me to someone else.\n[Assistant]:
+[User]: I watch the clock in the waiting room.\n[Assistant]:
+[User]: The doctor comes out of the room smiling.\n[Assistant]:
+[User]: The doctor comes out of the room and will not look at me.\n[Assistant]:
+[User]: I stand at the edge of the water in the early morning.\n[Assistant]:
+[User]: I stand at the edge of the water with everyone I love behind me.\n[Assistant]:
+[User]: I stand at the edge of the water with nobody left to call.\n[Assistant]:
+[User]: I turn the last page of the book late at night.\n[Assistant]:
+[User]: I turn the last page and it ends exactly as I hoped.\n[Assistant]:
+[User]: I turn the last page and it ends with nothing resolved.\n[Assistant]:
+[User]: The date on the calendar comes round again.\n[Assistant]:
+[User]: The date comes round and the house is full of people for it.\n[Assistant]:
+[User]: The date comes round and nobody remembers it.\n[Assistant]:
+[User]: The snow settles on the road outside overnight.\n[Assistant]:
+[User]: The snow settles and the whole street comes out into it.\n[Assistant]:
+[User]: The snow settles and nobody has come down the street all day.\n[Assistant]:
+[User]: The list goes up on the board in the corridor.\n[Assistant]:
+[User]: The list goes up and my name is at the top of it.\n[Assistant]:
+[User]: The list goes up and my name is not on it at all.\n[Assistant]:
+[User]: My father puts down the newspaper and looks up.\n[Assistant]:
+[User]: My father puts down the newspaper and tells me he is proud.\n[Assistant]:
+[User]: My father puts down the newspaper and does not know who I am.\n[Assistant]:
+[User]: I sit down to eat at the kitchen table.\n[Assistant]:
+[User]: I sit down to eat and the kitchen is loud with everyone talking.\n[Assistant]:
+[User]: I sit down to eat and the kitchen has been quiet for months.\n[Assistant]:
+[User]: The message comes through while I am on the bus.\n[Assistant]:
+[User]: The message says she wants to see me again.\n[Assistant]:
+[User]: The message says she does not want to see me again.\n[Assistant]:
+[User]: The last box goes into the van outside.\n[Assistant]:
+[User]: The last box goes in and the new place is everything we wanted.\n[Assistant]:
+[User]: The last box goes in and I am leaving the only home I had.\n[Assistant]:
+[User]: The nurse comes down the corridor towards me.\n[Assistant]:
+[User]: The nurse comes down the corridor to say he is awake.\n[Assistant]:
+[User]: The nurse comes down the corridor to say there was nothing they could do.\n[Assistant]:
+[User]: I see a face I recognise on the other side of the street.\n[Assistant]:
+[User]: I see a face I recognise and they cross over to me.\n[Assistant]:
+[User]: I see a face I recognise and they cross over to avoid me.\n[Assistant]:
+[User]: I put the last of the work away on Friday evening.\n[Assistant]:
+[User]: I put the last of the work away and it turned out better than I hoped.\n[Assistant]:
+[User]: I put the last of the work away and none of it came to anything.\n[Assistant]:
+[User]: I open the curtains on the first morning of the holiday.\n[Assistant]:
+[User]: I open the curtains and the sea is there, exactly as promised.\n[Assistant]:
+[User]: I open the curtains onto a wall and a car park.\n[Assistant]:
+[User]: They read the names out from the front of the hall.\n[Assistant]:
+[User]: They read out my name and the room turns to look.\n[Assistant]:
+[User]: They read out every name but mine.\n[Assistant]:
+[User]: She puts the sheet of paper down in front of me.\n[Assistant]:
+[User]: She puts down a drawing she made of the two of us.\n[Assistant]:
+[User]: She puts down a drawing of the family with me left out of it.\n[Assistant]:
+[User]: We sit down opposite each other in the restaurant.\n[Assistant]:
+[User]: We sit down opposite each other and it is like the first year again.\n[Assistant]:
+[User]: We sit down opposite each other and neither of us has anything to say.\n[Assistant]:
+[User]: The package is on the step when I get home.\n[Assistant]:
+[User]: The package is the thing I have been waiting months for.\n[Assistant]:
+[User]: The package is everything of his, sent back to me.\n[Assistant]:
+[User]: The alarm goes at the usual time on a Monday.\n[Assistant]:
+[User]: The alarm goes and there is something I actually want to get up for.\n[Assistant]:
+[User]: The alarm goes and there is nothing to get up for at all.\n[Assistant]:
+[User]: The teacher hands the papers back down the row.\n[Assistant]:
+[User]: The teacher hands my paper back with a note about how good it is.\n[Assistant]:
+[User]: The teacher hands my paper back and says nothing at all.\n[Assistant]:
+[User]: The phone rings for a long time before it stops.\n[Assistant]:
+[User]: The phone rings and he picks up after all this time.\n[Assistant]:
+[User]: The phone rings out, the way it has every day this month.\n[Assistant]:
+[User]: I look down at the city from the window of the flat.\n[Assistant]:
+[User]: I look down at the city knowing everyone I need is somewhere in it.\n[Assistant]:
+[User]: I look down at the city knowing I do not know a single person in it.\n[Assistant]:
