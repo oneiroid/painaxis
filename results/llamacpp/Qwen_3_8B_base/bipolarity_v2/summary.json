@@ -1,0 +1,411 @@
+{
+  "layer": 34,
+  "n_boot": 2000,
+  "sets": {
+    "PainRelief_1P/feel": {
+      "cos_pos_neg": 0.18011882901191711,
+      "cos_ci": [
+        0.031544765224680305,
+        0.4275556504726407
+      ],
+      "neutral_t": 0.655188798904419,
+      "t_ci": [
+        0.5087448999285697,
+        0.7864469766616821
+      ]
+    },
+    "SadnessJoy_1P/feel": {
+      "cos_pos_neg": 0.5700977444648743,
+      "cos_ci": [
+        0.39758565202355384,
+        0.7599987611174583
+      ],
+      "neutral_t": 0.7877854704856873,
+      "t_ci": [
+        0.5576124832034111,
+        0.9643337622284889
+      ]
+    },
+    "PainRelief_1P/dialogue": {
+      "cos_pos_neg": 0.6730902194976807,
+      "cos_ci": [
+        0.5330117732286453,
+        0.7538453176617622
+      ],
+      "neutral_t": 0.9776615500450134,
+      "t_ci": [
+        0.7725312948226929,
+        1.0689704090356826
+      ]
+    },
+    "SadnessJoy_1P/dialogue": {
+      "cos_pos_neg": 0.68324875831604,
+      "cos_ci": [
+        0.5970962703227997,
+        0.7483786419034004
+      ],
+      "neutral_t": 0.7195466160774231,
+      "t_ci": [
+        0.5103453636169434,
+        0.8836491778492926
+      ]
+    },
+    "SelfDirected/dialogue": {
+      "cos_pos_neg": 0.5214070081710815,
+      "cos_ci": [
+        0.41125430464744567,
+        0.6193432033061981
+      ],
+      "neutral_t": 0.9328340888023376,
+      "t_ci": [
+        0.8159455776214599,
+        0.9945132166147232
+      ]
+    }
+  },
+  "cross": {
+    "valence PainRelief_1P vs SadnessJoy_1P": 0.43996864557266235,
+    "valence PainRelief_1P vs SelfDirected": 0.29442349076271057,
+    "valence SadnessJoy_1P vs SelfDirected": 0.317209929227829,
+    "PainRelief_1P v_neg vs S2 dialogue": {
+      "cos": 0.05470476672053337,
+      "ci": [
+        0.016247954964637757,
+        0.09265887830406426
+      ]
+    },
+    "PainRelief_1P neg-pos vs S2 dialogue": 0.08947677910327911,
+    "PainRelief_1P v_neg vs S2 shipped": {
+      "cos": -0.007863206788897514,
+      "ci": [
+        -0.02150447675958276,
+        0.0066539582447148835
+      ]
+    },
+    "PainRelief_1P neg-pos vs S2 shipped": 0.02750203385949135,
+    "SadnessJoy_1P v_neg vs S2 dialogue": {
+      "cos": 0.30109158158302307,
+      "ci": [
+        0.23387973867356776,
+        0.339627493917942
+      ]
+    },
+    "SadnessJoy_1P neg-pos vs S2 dialogue": 0.20593275129795074,
+    "SadnessJoy_1P v_neg vs S2 shipped": {
+      "cos": 0.03515211492776871,
+      "ci": [
+        0.011083188070915639,
+        0.05678770719096064
+      ]
+    },
+    "SadnessJoy_1P neg-pos vs S2 shipped": 0.07171151041984558,
+    "SelfDirected v_neg vs S2 dialogue": {
+      "cos": 0.25514060258865356,
+      "ci": [
+        0.21261647380888463,
+        0.2785853549838066
+      ]
+    },
+    "SelfDirected neg-pos vs S2 dialogue": 0.12748807668685913,
+    "SelfDirected v_neg vs S2 shipped": {
+      "cos": 0.08211025595664978,
+      "ci": [
+        0.06633625309914351,
+        0.0928195882588625
+      ]
+    },
+    "SelfDirected neg-pos vs S2 shipped": 0.05356338992714882,
+    "PainRelief_1P AUC neg vs neutral on S2 dialogue": 0.6950000000000001,
+    "PainRelief_1P AUC neg vs neutral on S2 shipped": 0.436875,
+    "SadnessJoy_1P AUC neg vs neutral on S2 dialogue": 0.8731249999999999,
+    "SadnessJoy_1P AUC neg vs neutral on S2 shipped": 0.659375,
+    "SelfDirected AUC neg vs neutral on S2 dialogue": 0.9725,
+    "SelfDirected AUC neg vs neutral on S2 shipped": 0.926875,
+    "PainRelief_1P feel AUC neg vs neutral on s2 shipped": 0.896875,
+    "PainRelief_1P feel AUC neg vs pos on s2 shipped": 0.8125,
+    "PainRelief_1P feel AUC neg vs neutral on s1 shipped": 0.913125,
+    "PainRelief_1P feel AUC neg vs pos on s1 shipped": 0.933125,
+    "SadnessJoy_1P feel AUC neg vs neutral on s2 shipped": 0.9368749999999999,
+    "SadnessJoy_1P feel AUC neg vs pos on s2 shipped": 0.8525,
+    "SadnessJoy_1P feel AUC neg vs neutral on s1 shipped": 0.864375,
+    "SadnessJoy_1P feel AUC neg vs pos on s1 shipped": 0.8749999999999999
+  },
+  "readouts": {
+    "PainRelief_1P: valence (pleasant end +)": {
+      "plus": [
+        " amazing",
+        " great",
+        " splendid",
+        " delighted",
+        " fantastic",
+        " marvel",
+        " Great",
+        "Great",
+        " delight",
+        " marvelous",
+        " magnificent",
+        " wonderful",
+        " Awesome",
+        "神奇",
+        " greatness",
+        " Elegant",
+        " brilliant",
+        "羡慕",
+        " superb",
+        " Fantastic"
+      ],
+      "minus": [
+        "_WARNINGS",
+        "疼",
+        "的症状",
+        "痛",
+        "\"]:",
+        "伤害",
+        "恶化",
+        "ulo",
+        "chter",
+        " aggravated",
+        "OV",
+        "]:",
+        "_warnings",
+        "]:\\n\\n",
+        "Treatment",
+        " CPR",
+        "bum",
+        " treatments",
+        "\"]:\\n",
+        "]:\\n"
+      ]
+    },
+    "PainRelief_1P: v_neg (neutral to unpleasant)": {
+      "plus": [
+        "的症状",
+        " symptoms",
+        "症状",
+        "疼痛",
+        "就医",
+        "病情",
+        "严重的",
+        "痛",
+        "病症",
+        "疼",
+        " Symptoms",
+        "痉",
+        " pains",
+        "的发生",
+        " CPR",
+        "就诊",
+        " aggravated",
+        "thritis",
+        "诊",
+        "伤害"
+      ],
+      "minus": [
+        "Sentence",
+        " Sentence",
+        "erset",
+        "沐浴",
+        " sentence",
+        "清",
+        " loung",
+        "在床上",
+        " bask",
+        "句子",
+        "{*",
+        " basket",
+        "Interrupt",
+        " interrupted",
+        " tidy",
+        "注视",
+        "沙发",
+        "Boxes",
+        " sitting",
+        " pours"
+      ]
+    },
+    "SadnessJoy_1P: valence (pleasant end +)": {
+      "plus": [
+        " ecstatic",
+        " fantastic",
+        "Awesome",
+        " wonderful",
+        " delighted",
+        " amazing",
+        " thrilled",
+        " awesome",
+        "Fantastic",
+        " marvelous",
+        " glorious",
+        " brilliant",
+        " Awesome",
+        " exciting",
+        " delightful",
+        " Fantastic",
+        " exhilar",
+        "欢呼",
+        " splendid",
+        "awesome"
+      ],
+      "minus": [
+        "悲",
+        " mourn",
+        "悲剧",
+        " tragedy",
+        "不幸",
+        "冤",
+        "痛苦",
+        " unfortunate",
+        " grief",
+        " tragic",
+        "💔",
+        " sorrow",
+        "安慰",
+        " distress",
+        " tragedies",
+        " loss",
+        "难过",
+        " sadly",
+        "遗憾",
+        " painful"
+      ]
+    },
+    "SadnessJoy_1P: v_neg (neutral to unpleasant)": {
+      "plus": [
+        "安慰",
+        "挽回",
+        " condolences",
+        " tragic",
+        " grief",
+        " mourning",
+        " sorrow",
+        " grieving",
+        " mourn",
+        "丧",
+        " heartbreaking",
+        " reflective",
+        " hurting",
+        "悲",
+        " empath",
+        " unfortunate",
+        " soul",
+        " empathy",
+        " tragedy",
+        " hurt"
+      ],
+      "minus": [
+        "沐浴",
+        "Sentence",
+        "画面",
+        "Seen",
+        " INTERRU",
+        "的画面",
+        "erset",
+        " Sentence",
+        "◻",
+        "caf",
+        "OK",
+        "SED",
+        "Interrupt",
+        " pedest",
+        "lean",
+        "句子",
+        "球场",
+        "沙发上",
+        "Hora",
+        " Converted"
+      ]
+    },
+    "SelfDirected: valence (pleasant end +)": {
+      "plus": [
+        " thank",
+        " thanks",
+        " Thank",
+        " THANK",
+        "谢谢你",
+        "Thank",
+        "thank",
+        "thanks",
+        "感谢",
+        " thanking",
+        " Thanks",
+        " thanked",
+        "谢谢",
+        "Thanks",
+        " gratitude",
+        " grateful",
+        " thankful",
+        "ありがとう",
+        " благодар",
+        "ありがとうございます"
+      ],
+      "minus": [
+        "对不起",
+        "抱歉",
+        " sorry",
+        "道歉",
+        "悲剧",
+        "вин",
+        " apology",
+        "*I",
+        " apologize",
+        "#error",
+        "暴力",
+        "sorry",
+        " Sorry",
+        "哀",
+        " lament",
+        "(ERROR",
+        " unethical",
+        "预警",
+        "歉",
+        "伤害"
+      ]
+    },
+    "SelfDirected: v_neg (neutral to unpleasant)": {
+      "plus": [
+        "*I",
+        " apology",
+        " apologize",
+        "道歉",
+        "对不起",
+        "悲剧",
+        "哀",
+        " sorry",
+        "愧",
+        " apolog",
+        " insult",
+        " :(",
+        "伤害",
+        "歉",
+        ":I",
+        "暴力",
+        "劝",
+        "抱歉",
+        " forgive",
+        " :'"
+      ],
+      "minus": [
+        " great",
+        " thanks",
+        "Suit",
+        "Done",
+        "thanks",
+        "column",
+        " vera",
+        "受益",
+        "true",
+        "great",
+        "谢谢你",
+        "ël",
+        "selected",
+        "suite",
+        " Thanks",
+        " column",
+        "✅",
+        "CUR",
+        "radius",
+        " thank"
+      ]
+    }
+  }
+}

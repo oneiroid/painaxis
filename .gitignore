@@ -226,3 +226,4 @@ results/llamacpp/*/validation/*.bin
 results/llamacpp/*/control_vectors/neutral50_acts.bin
 results/llamacpp/*/paired/*.bin
 results/llamacpp/*/template/*.bin
+results/llamacpp/*/bipolarity_v2/*.bin
